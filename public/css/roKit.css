@@ -9005,6 +9005,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--primary-color), var(--primary-dark-color));
 }
 
+.gradient-primary-primary-dark-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--primary-color), var(--primary-dark-color));
+  text-shadow: none !important;
+}
+.gradient-primary-primary-dark-clip h1,
+.gradient-primary-primary-dark-clip h2,
+.gradient-primary-primary-dark-clip h3,
+.gradient-primary-primary-dark-clip table caption,
+table .gradient-primary-primary-dark-clip caption,
+.gradient-primary-primary-dark-clip h4,
+.gradient-primary-primary-dark-clip h5,
+.gradient-primary-primary-dark-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-primary-primary-dark {
     background: var(--primary-color);
@@ -9044,6 +9067,29 @@ a.link-dark {
 .gradient-primary-primary-light {
   background: var(--primary-color);
   background: linear-gradient(33deg, var(--primary-color), var(--primary-light-color));
+}
+
+.gradient-primary-primary-light-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--primary-color), var(--primary-light-color));
+  text-shadow: none !important;
+}
+.gradient-primary-primary-light-clip h1,
+.gradient-primary-primary-light-clip h2,
+.gradient-primary-primary-light-clip h3,
+.gradient-primary-primary-light-clip table caption,
+table .gradient-primary-primary-light-clip caption,
+.gradient-primary-primary-light-clip h4,
+.gradient-primary-primary-light-clip h5,
+.gradient-primary-primary-light-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -9087,6 +9133,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--primary-color), var(--secondary-color));
 }
 
+.gradient-primary-secondary-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--primary-color), var(--secondary-color));
+  text-shadow: none !important;
+}
+.gradient-primary-secondary-clip h1,
+.gradient-primary-secondary-clip h2,
+.gradient-primary-secondary-clip h3,
+.gradient-primary-secondary-clip table caption,
+table .gradient-primary-secondary-clip caption,
+.gradient-primary-secondary-clip h4,
+.gradient-primary-secondary-clip h5,
+.gradient-primary-secondary-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-primary-secondary {
     background: var(--primary-color);
@@ -9126,6 +9195,29 @@ a.link-dark {
 .gradient-primary-secondary-dark {
   background: var(--primary-color);
   background: linear-gradient(33deg, var(--primary-color), var(--secondary-dark-color));
+}
+
+.gradient-primary-secondary-dark-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--primary-color), var(--secondary-dark-color));
+  text-shadow: none !important;
+}
+.gradient-primary-secondary-dark-clip h1,
+.gradient-primary-secondary-dark-clip h2,
+.gradient-primary-secondary-dark-clip h3,
+.gradient-primary-secondary-dark-clip table caption,
+table .gradient-primary-secondary-dark-clip caption,
+.gradient-primary-secondary-dark-clip h4,
+.gradient-primary-secondary-dark-clip h5,
+.gradient-primary-secondary-dark-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -9169,6 +9261,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--primary-color), var(--secondary-light-color));
 }
 
+.gradient-primary-secondary-light-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--primary-color), var(--secondary-light-color));
+  text-shadow: none !important;
+}
+.gradient-primary-secondary-light-clip h1,
+.gradient-primary-secondary-light-clip h2,
+.gradient-primary-secondary-light-clip h3,
+.gradient-primary-secondary-light-clip table caption,
+table .gradient-primary-secondary-light-clip caption,
+.gradient-primary-secondary-light-clip h4,
+.gradient-primary-secondary-light-clip h5,
+.gradient-primary-secondary-light-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-primary-secondary-light {
     background: var(--primary-color);
@@ -9208,6 +9323,29 @@ a.link-dark {
 .gradient-primary-success {
   background: var(--primary-color);
   background: linear-gradient(33deg, var(--primary-color), var(--success-color));
+}
+
+.gradient-primary-success-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--primary-color), var(--success-color));
+  text-shadow: none !important;
+}
+.gradient-primary-success-clip h1,
+.gradient-primary-success-clip h2,
+.gradient-primary-success-clip h3,
+.gradient-primary-success-clip table caption,
+table .gradient-primary-success-clip caption,
+.gradient-primary-success-clip h4,
+.gradient-primary-success-clip h5,
+.gradient-primary-success-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -9251,6 +9389,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--primary-color), var(--warning-color));
 }
 
+.gradient-primary-warning-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--primary-color), var(--warning-color));
+  text-shadow: none !important;
+}
+.gradient-primary-warning-clip h1,
+.gradient-primary-warning-clip h2,
+.gradient-primary-warning-clip h3,
+.gradient-primary-warning-clip table caption,
+table .gradient-primary-warning-clip caption,
+.gradient-primary-warning-clip h4,
+.gradient-primary-warning-clip h5,
+.gradient-primary-warning-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-primary-warning {
     background: var(--primary-color);
@@ -9290,6 +9451,29 @@ a.link-dark {
 .gradient-primary-danger {
   background: var(--primary-color);
   background: linear-gradient(33deg, var(--primary-color), var(--danger-color));
+}
+
+.gradient-primary-danger-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--primary-color), var(--danger-color));
+  text-shadow: none !important;
+}
+.gradient-primary-danger-clip h1,
+.gradient-primary-danger-clip h2,
+.gradient-primary-danger-clip h3,
+.gradient-primary-danger-clip table caption,
+table .gradient-primary-danger-clip caption,
+.gradient-primary-danger-clip h4,
+.gradient-primary-danger-clip h5,
+.gradient-primary-danger-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -9333,6 +9517,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--primary-color), var(--code-color));
 }
 
+.gradient-primary-code-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--primary-color), var(--code-color));
+  text-shadow: none !important;
+}
+.gradient-primary-code-clip h1,
+.gradient-primary-code-clip h2,
+.gradient-primary-code-clip h3,
+.gradient-primary-code-clip table caption,
+table .gradient-primary-code-clip caption,
+.gradient-primary-code-clip h4,
+.gradient-primary-code-clip h5,
+.gradient-primary-code-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-primary-code {
     background: var(--primary-color);
@@ -9372,6 +9579,29 @@ a.link-dark {
 .gradient-primary-light {
   background: var(--primary-color);
   background: linear-gradient(33deg, var(--primary-color), var(--light-color));
+}
+
+.gradient-primary-light-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--primary-color), var(--light-color));
+  text-shadow: none !important;
+}
+.gradient-primary-light-clip h1,
+.gradient-primary-light-clip h2,
+.gradient-primary-light-clip h3,
+.gradient-primary-light-clip table caption,
+table .gradient-primary-light-clip caption,
+.gradient-primary-light-clip h4,
+.gradient-primary-light-clip h5,
+.gradient-primary-light-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -9415,6 +9645,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--primary-color), var(--dark-color));
 }
 
+.gradient-primary-dark-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--primary-color), var(--dark-color));
+  text-shadow: none !important;
+}
+.gradient-primary-dark-clip h1,
+.gradient-primary-dark-clip h2,
+.gradient-primary-dark-clip h3,
+.gradient-primary-dark-clip table caption,
+table .gradient-primary-dark-clip caption,
+.gradient-primary-dark-clip h4,
+.gradient-primary-dark-clip h5,
+.gradient-primary-dark-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-primary-dark {
     background: var(--primary-color);
@@ -9454,6 +9707,29 @@ a.link-dark {
 .gradient-primary-dark-primary {
   background: var(--primary-dark-color);
   background: linear-gradient(33deg, var(--primary-dark-color), var(--primary-color));
+}
+
+.gradient-primary-dark-primary-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--primary-dark-color), var(--primary-color));
+  text-shadow: none !important;
+}
+.gradient-primary-dark-primary-clip h1,
+.gradient-primary-dark-primary-clip h2,
+.gradient-primary-dark-primary-clip h3,
+.gradient-primary-dark-primary-clip table caption,
+table .gradient-primary-dark-primary-clip caption,
+.gradient-primary-dark-primary-clip h4,
+.gradient-primary-dark-primary-clip h5,
+.gradient-primary-dark-primary-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -9497,6 +9773,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--primary-dark-color), var(--primary-light-color));
 }
 
+.gradient-primary-dark-primary-light-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--primary-dark-color), var(--primary-light-color));
+  text-shadow: none !important;
+}
+.gradient-primary-dark-primary-light-clip h1,
+.gradient-primary-dark-primary-light-clip h2,
+.gradient-primary-dark-primary-light-clip h3,
+.gradient-primary-dark-primary-light-clip table caption,
+table .gradient-primary-dark-primary-light-clip caption,
+.gradient-primary-dark-primary-light-clip h4,
+.gradient-primary-dark-primary-light-clip h5,
+.gradient-primary-dark-primary-light-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-primary-dark-primary-light {
     background: var(--primary-dark-color);
@@ -9536,6 +9835,29 @@ a.link-dark {
 .gradient-primary-dark-secondary {
   background: var(--primary-dark-color);
   background: linear-gradient(33deg, var(--primary-dark-color), var(--secondary-color));
+}
+
+.gradient-primary-dark-secondary-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--primary-dark-color), var(--secondary-color));
+  text-shadow: none !important;
+}
+.gradient-primary-dark-secondary-clip h1,
+.gradient-primary-dark-secondary-clip h2,
+.gradient-primary-dark-secondary-clip h3,
+.gradient-primary-dark-secondary-clip table caption,
+table .gradient-primary-dark-secondary-clip caption,
+.gradient-primary-dark-secondary-clip h4,
+.gradient-primary-dark-secondary-clip h5,
+.gradient-primary-dark-secondary-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -9579,6 +9901,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--primary-dark-color), var(--secondary-dark-color));
 }
 
+.gradient-primary-dark-secondary-dark-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--primary-dark-color), var(--secondary-dark-color));
+  text-shadow: none !important;
+}
+.gradient-primary-dark-secondary-dark-clip h1,
+.gradient-primary-dark-secondary-dark-clip h2,
+.gradient-primary-dark-secondary-dark-clip h3,
+.gradient-primary-dark-secondary-dark-clip table caption,
+table .gradient-primary-dark-secondary-dark-clip caption,
+.gradient-primary-dark-secondary-dark-clip h4,
+.gradient-primary-dark-secondary-dark-clip h5,
+.gradient-primary-dark-secondary-dark-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-primary-dark-secondary-dark {
     background: var(--primary-dark-color);
@@ -9618,6 +9963,29 @@ a.link-dark {
 .gradient-primary-dark-secondary-light {
   background: var(--primary-dark-color);
   background: linear-gradient(33deg, var(--primary-dark-color), var(--secondary-light-color));
+}
+
+.gradient-primary-dark-secondary-light-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--primary-dark-color), var(--secondary-light-color));
+  text-shadow: none !important;
+}
+.gradient-primary-dark-secondary-light-clip h1,
+.gradient-primary-dark-secondary-light-clip h2,
+.gradient-primary-dark-secondary-light-clip h3,
+.gradient-primary-dark-secondary-light-clip table caption,
+table .gradient-primary-dark-secondary-light-clip caption,
+.gradient-primary-dark-secondary-light-clip h4,
+.gradient-primary-dark-secondary-light-clip h5,
+.gradient-primary-dark-secondary-light-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -9661,6 +10029,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--primary-dark-color), var(--success-color));
 }
 
+.gradient-primary-dark-success-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--primary-dark-color), var(--success-color));
+  text-shadow: none !important;
+}
+.gradient-primary-dark-success-clip h1,
+.gradient-primary-dark-success-clip h2,
+.gradient-primary-dark-success-clip h3,
+.gradient-primary-dark-success-clip table caption,
+table .gradient-primary-dark-success-clip caption,
+.gradient-primary-dark-success-clip h4,
+.gradient-primary-dark-success-clip h5,
+.gradient-primary-dark-success-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-primary-dark-success {
     background: var(--primary-dark-color);
@@ -9700,6 +10091,29 @@ a.link-dark {
 .gradient-primary-dark-warning {
   background: var(--primary-dark-color);
   background: linear-gradient(33deg, var(--primary-dark-color), var(--warning-color));
+}
+
+.gradient-primary-dark-warning-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--primary-dark-color), var(--warning-color));
+  text-shadow: none !important;
+}
+.gradient-primary-dark-warning-clip h1,
+.gradient-primary-dark-warning-clip h2,
+.gradient-primary-dark-warning-clip h3,
+.gradient-primary-dark-warning-clip table caption,
+table .gradient-primary-dark-warning-clip caption,
+.gradient-primary-dark-warning-clip h4,
+.gradient-primary-dark-warning-clip h5,
+.gradient-primary-dark-warning-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -9743,6 +10157,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--primary-dark-color), var(--danger-color));
 }
 
+.gradient-primary-dark-danger-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--primary-dark-color), var(--danger-color));
+  text-shadow: none !important;
+}
+.gradient-primary-dark-danger-clip h1,
+.gradient-primary-dark-danger-clip h2,
+.gradient-primary-dark-danger-clip h3,
+.gradient-primary-dark-danger-clip table caption,
+table .gradient-primary-dark-danger-clip caption,
+.gradient-primary-dark-danger-clip h4,
+.gradient-primary-dark-danger-clip h5,
+.gradient-primary-dark-danger-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-primary-dark-danger {
     background: var(--primary-dark-color);
@@ -9782,6 +10219,29 @@ a.link-dark {
 .gradient-primary-dark-code {
   background: var(--primary-dark-color);
   background: linear-gradient(33deg, var(--primary-dark-color), var(--code-color));
+}
+
+.gradient-primary-dark-code-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--primary-dark-color), var(--code-color));
+  text-shadow: none !important;
+}
+.gradient-primary-dark-code-clip h1,
+.gradient-primary-dark-code-clip h2,
+.gradient-primary-dark-code-clip h3,
+.gradient-primary-dark-code-clip table caption,
+table .gradient-primary-dark-code-clip caption,
+.gradient-primary-dark-code-clip h4,
+.gradient-primary-dark-code-clip h5,
+.gradient-primary-dark-code-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -9825,6 +10285,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--primary-dark-color), var(--light-color));
 }
 
+.gradient-primary-dark-light-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--primary-dark-color), var(--light-color));
+  text-shadow: none !important;
+}
+.gradient-primary-dark-light-clip h1,
+.gradient-primary-dark-light-clip h2,
+.gradient-primary-dark-light-clip h3,
+.gradient-primary-dark-light-clip table caption,
+table .gradient-primary-dark-light-clip caption,
+.gradient-primary-dark-light-clip h4,
+.gradient-primary-dark-light-clip h5,
+.gradient-primary-dark-light-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-primary-dark-light {
     background: var(--primary-dark-color);
@@ -9864,6 +10347,29 @@ a.link-dark {
 .gradient-primary-dark-dark {
   background: var(--primary-dark-color);
   background: linear-gradient(33deg, var(--primary-dark-color), var(--dark-color));
+}
+
+.gradient-primary-dark-dark-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--primary-dark-color), var(--dark-color));
+  text-shadow: none !important;
+}
+.gradient-primary-dark-dark-clip h1,
+.gradient-primary-dark-dark-clip h2,
+.gradient-primary-dark-dark-clip h3,
+.gradient-primary-dark-dark-clip table caption,
+table .gradient-primary-dark-dark-clip caption,
+.gradient-primary-dark-dark-clip h4,
+.gradient-primary-dark-dark-clip h5,
+.gradient-primary-dark-dark-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -9907,6 +10413,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--primary-light-color), var(--primary-color));
 }
 
+.gradient-primary-light-primary-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--primary-light-color), var(--primary-color));
+  text-shadow: none !important;
+}
+.gradient-primary-light-primary-clip h1,
+.gradient-primary-light-primary-clip h2,
+.gradient-primary-light-primary-clip h3,
+.gradient-primary-light-primary-clip table caption,
+table .gradient-primary-light-primary-clip caption,
+.gradient-primary-light-primary-clip h4,
+.gradient-primary-light-primary-clip h5,
+.gradient-primary-light-primary-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-primary-light-primary {
     background: var(--primary-light-color);
@@ -9946,6 +10475,29 @@ a.link-dark {
 .gradient-primary-light-primary-dark {
   background: var(--primary-light-color);
   background: linear-gradient(33deg, var(--primary-light-color), var(--primary-dark-color));
+}
+
+.gradient-primary-light-primary-dark-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--primary-light-color), var(--primary-dark-color));
+  text-shadow: none !important;
+}
+.gradient-primary-light-primary-dark-clip h1,
+.gradient-primary-light-primary-dark-clip h2,
+.gradient-primary-light-primary-dark-clip h3,
+.gradient-primary-light-primary-dark-clip table caption,
+table .gradient-primary-light-primary-dark-clip caption,
+.gradient-primary-light-primary-dark-clip h4,
+.gradient-primary-light-primary-dark-clip h5,
+.gradient-primary-light-primary-dark-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -9989,6 +10541,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--primary-light-color), var(--secondary-color));
 }
 
+.gradient-primary-light-secondary-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--primary-light-color), var(--secondary-color));
+  text-shadow: none !important;
+}
+.gradient-primary-light-secondary-clip h1,
+.gradient-primary-light-secondary-clip h2,
+.gradient-primary-light-secondary-clip h3,
+.gradient-primary-light-secondary-clip table caption,
+table .gradient-primary-light-secondary-clip caption,
+.gradient-primary-light-secondary-clip h4,
+.gradient-primary-light-secondary-clip h5,
+.gradient-primary-light-secondary-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-primary-light-secondary {
     background: var(--primary-light-color);
@@ -10028,6 +10603,29 @@ a.link-dark {
 .gradient-primary-light-secondary-dark {
   background: var(--primary-light-color);
   background: linear-gradient(33deg, var(--primary-light-color), var(--secondary-dark-color));
+}
+
+.gradient-primary-light-secondary-dark-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--primary-light-color), var(--secondary-dark-color));
+  text-shadow: none !important;
+}
+.gradient-primary-light-secondary-dark-clip h1,
+.gradient-primary-light-secondary-dark-clip h2,
+.gradient-primary-light-secondary-dark-clip h3,
+.gradient-primary-light-secondary-dark-clip table caption,
+table .gradient-primary-light-secondary-dark-clip caption,
+.gradient-primary-light-secondary-dark-clip h4,
+.gradient-primary-light-secondary-dark-clip h5,
+.gradient-primary-light-secondary-dark-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -10071,6 +10669,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--primary-light-color), var(--secondary-light-color));
 }
 
+.gradient-primary-light-secondary-light-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--primary-light-color), var(--secondary-light-color));
+  text-shadow: none !important;
+}
+.gradient-primary-light-secondary-light-clip h1,
+.gradient-primary-light-secondary-light-clip h2,
+.gradient-primary-light-secondary-light-clip h3,
+.gradient-primary-light-secondary-light-clip table caption,
+table .gradient-primary-light-secondary-light-clip caption,
+.gradient-primary-light-secondary-light-clip h4,
+.gradient-primary-light-secondary-light-clip h5,
+.gradient-primary-light-secondary-light-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-primary-light-secondary-light {
     background: var(--primary-light-color);
@@ -10110,6 +10731,29 @@ a.link-dark {
 .gradient-primary-light-success {
   background: var(--primary-light-color);
   background: linear-gradient(33deg, var(--primary-light-color), var(--success-color));
+}
+
+.gradient-primary-light-success-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--primary-light-color), var(--success-color));
+  text-shadow: none !important;
+}
+.gradient-primary-light-success-clip h1,
+.gradient-primary-light-success-clip h2,
+.gradient-primary-light-success-clip h3,
+.gradient-primary-light-success-clip table caption,
+table .gradient-primary-light-success-clip caption,
+.gradient-primary-light-success-clip h4,
+.gradient-primary-light-success-clip h5,
+.gradient-primary-light-success-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -10153,6 +10797,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--primary-light-color), var(--warning-color));
 }
 
+.gradient-primary-light-warning-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--primary-light-color), var(--warning-color));
+  text-shadow: none !important;
+}
+.gradient-primary-light-warning-clip h1,
+.gradient-primary-light-warning-clip h2,
+.gradient-primary-light-warning-clip h3,
+.gradient-primary-light-warning-clip table caption,
+table .gradient-primary-light-warning-clip caption,
+.gradient-primary-light-warning-clip h4,
+.gradient-primary-light-warning-clip h5,
+.gradient-primary-light-warning-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-primary-light-warning {
     background: var(--primary-light-color);
@@ -10192,6 +10859,29 @@ a.link-dark {
 .gradient-primary-light-danger {
   background: var(--primary-light-color);
   background: linear-gradient(33deg, var(--primary-light-color), var(--danger-color));
+}
+
+.gradient-primary-light-danger-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--primary-light-color), var(--danger-color));
+  text-shadow: none !important;
+}
+.gradient-primary-light-danger-clip h1,
+.gradient-primary-light-danger-clip h2,
+.gradient-primary-light-danger-clip h3,
+.gradient-primary-light-danger-clip table caption,
+table .gradient-primary-light-danger-clip caption,
+.gradient-primary-light-danger-clip h4,
+.gradient-primary-light-danger-clip h5,
+.gradient-primary-light-danger-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -10235,6 +10925,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--primary-light-color), var(--code-color));
 }
 
+.gradient-primary-light-code-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--primary-light-color), var(--code-color));
+  text-shadow: none !important;
+}
+.gradient-primary-light-code-clip h1,
+.gradient-primary-light-code-clip h2,
+.gradient-primary-light-code-clip h3,
+.gradient-primary-light-code-clip table caption,
+table .gradient-primary-light-code-clip caption,
+.gradient-primary-light-code-clip h4,
+.gradient-primary-light-code-clip h5,
+.gradient-primary-light-code-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-primary-light-code {
     background: var(--primary-light-color);
@@ -10274,6 +10987,29 @@ a.link-dark {
 .gradient-primary-light-light {
   background: var(--primary-light-color);
   background: linear-gradient(33deg, var(--primary-light-color), var(--light-color));
+}
+
+.gradient-primary-light-light-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--primary-light-color), var(--light-color));
+  text-shadow: none !important;
+}
+.gradient-primary-light-light-clip h1,
+.gradient-primary-light-light-clip h2,
+.gradient-primary-light-light-clip h3,
+.gradient-primary-light-light-clip table caption,
+table .gradient-primary-light-light-clip caption,
+.gradient-primary-light-light-clip h4,
+.gradient-primary-light-light-clip h5,
+.gradient-primary-light-light-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -10317,6 +11053,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--primary-light-color), var(--dark-color));
 }
 
+.gradient-primary-light-dark-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--primary-light-color), var(--dark-color));
+  text-shadow: none !important;
+}
+.gradient-primary-light-dark-clip h1,
+.gradient-primary-light-dark-clip h2,
+.gradient-primary-light-dark-clip h3,
+.gradient-primary-light-dark-clip table caption,
+table .gradient-primary-light-dark-clip caption,
+.gradient-primary-light-dark-clip h4,
+.gradient-primary-light-dark-clip h5,
+.gradient-primary-light-dark-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-primary-light-dark {
     background: var(--primary-light-color);
@@ -10356,6 +11115,29 @@ a.link-dark {
 .gradient-secondary-primary {
   background: var(--secondary-color);
   background: linear-gradient(33deg, var(--secondary-color), var(--primary-color));
+}
+
+.gradient-secondary-primary-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--secondary-color), var(--primary-color));
+  text-shadow: none !important;
+}
+.gradient-secondary-primary-clip h1,
+.gradient-secondary-primary-clip h2,
+.gradient-secondary-primary-clip h3,
+.gradient-secondary-primary-clip table caption,
+table .gradient-secondary-primary-clip caption,
+.gradient-secondary-primary-clip h4,
+.gradient-secondary-primary-clip h5,
+.gradient-secondary-primary-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -10399,6 +11181,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--secondary-color), var(--primary-dark-color));
 }
 
+.gradient-secondary-primary-dark-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--secondary-color), var(--primary-dark-color));
+  text-shadow: none !important;
+}
+.gradient-secondary-primary-dark-clip h1,
+.gradient-secondary-primary-dark-clip h2,
+.gradient-secondary-primary-dark-clip h3,
+.gradient-secondary-primary-dark-clip table caption,
+table .gradient-secondary-primary-dark-clip caption,
+.gradient-secondary-primary-dark-clip h4,
+.gradient-secondary-primary-dark-clip h5,
+.gradient-secondary-primary-dark-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-secondary-primary-dark {
     background: var(--secondary-color);
@@ -10438,6 +11243,29 @@ a.link-dark {
 .gradient-secondary-primary-light {
   background: var(--secondary-color);
   background: linear-gradient(33deg, var(--secondary-color), var(--primary-light-color));
+}
+
+.gradient-secondary-primary-light-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--secondary-color), var(--primary-light-color));
+  text-shadow: none !important;
+}
+.gradient-secondary-primary-light-clip h1,
+.gradient-secondary-primary-light-clip h2,
+.gradient-secondary-primary-light-clip h3,
+.gradient-secondary-primary-light-clip table caption,
+table .gradient-secondary-primary-light-clip caption,
+.gradient-secondary-primary-light-clip h4,
+.gradient-secondary-primary-light-clip h5,
+.gradient-secondary-primary-light-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -10481,6 +11309,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--secondary-color), var(--secondary-dark-color));
 }
 
+.gradient-secondary-secondary-dark-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--secondary-color), var(--secondary-dark-color));
+  text-shadow: none !important;
+}
+.gradient-secondary-secondary-dark-clip h1,
+.gradient-secondary-secondary-dark-clip h2,
+.gradient-secondary-secondary-dark-clip h3,
+.gradient-secondary-secondary-dark-clip table caption,
+table .gradient-secondary-secondary-dark-clip caption,
+.gradient-secondary-secondary-dark-clip h4,
+.gradient-secondary-secondary-dark-clip h5,
+.gradient-secondary-secondary-dark-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-secondary-secondary-dark {
     background: var(--secondary-color);
@@ -10520,6 +11371,29 @@ a.link-dark {
 .gradient-secondary-secondary-light {
   background: var(--secondary-color);
   background: linear-gradient(33deg, var(--secondary-color), var(--secondary-light-color));
+}
+
+.gradient-secondary-secondary-light-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--secondary-color), var(--secondary-light-color));
+  text-shadow: none !important;
+}
+.gradient-secondary-secondary-light-clip h1,
+.gradient-secondary-secondary-light-clip h2,
+.gradient-secondary-secondary-light-clip h3,
+.gradient-secondary-secondary-light-clip table caption,
+table .gradient-secondary-secondary-light-clip caption,
+.gradient-secondary-secondary-light-clip h4,
+.gradient-secondary-secondary-light-clip h5,
+.gradient-secondary-secondary-light-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -10563,6 +11437,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--secondary-color), var(--success-color));
 }
 
+.gradient-secondary-success-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--secondary-color), var(--success-color));
+  text-shadow: none !important;
+}
+.gradient-secondary-success-clip h1,
+.gradient-secondary-success-clip h2,
+.gradient-secondary-success-clip h3,
+.gradient-secondary-success-clip table caption,
+table .gradient-secondary-success-clip caption,
+.gradient-secondary-success-clip h4,
+.gradient-secondary-success-clip h5,
+.gradient-secondary-success-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-secondary-success {
     background: var(--secondary-color);
@@ -10602,6 +11499,29 @@ a.link-dark {
 .gradient-secondary-warning {
   background: var(--secondary-color);
   background: linear-gradient(33deg, var(--secondary-color), var(--warning-color));
+}
+
+.gradient-secondary-warning-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--secondary-color), var(--warning-color));
+  text-shadow: none !important;
+}
+.gradient-secondary-warning-clip h1,
+.gradient-secondary-warning-clip h2,
+.gradient-secondary-warning-clip h3,
+.gradient-secondary-warning-clip table caption,
+table .gradient-secondary-warning-clip caption,
+.gradient-secondary-warning-clip h4,
+.gradient-secondary-warning-clip h5,
+.gradient-secondary-warning-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -10645,6 +11565,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--secondary-color), var(--danger-color));
 }
 
+.gradient-secondary-danger-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--secondary-color), var(--danger-color));
+  text-shadow: none !important;
+}
+.gradient-secondary-danger-clip h1,
+.gradient-secondary-danger-clip h2,
+.gradient-secondary-danger-clip h3,
+.gradient-secondary-danger-clip table caption,
+table .gradient-secondary-danger-clip caption,
+.gradient-secondary-danger-clip h4,
+.gradient-secondary-danger-clip h5,
+.gradient-secondary-danger-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-secondary-danger {
     background: var(--secondary-color);
@@ -10684,6 +11627,29 @@ a.link-dark {
 .gradient-secondary-code {
   background: var(--secondary-color);
   background: linear-gradient(33deg, var(--secondary-color), var(--code-color));
+}
+
+.gradient-secondary-code-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--secondary-color), var(--code-color));
+  text-shadow: none !important;
+}
+.gradient-secondary-code-clip h1,
+.gradient-secondary-code-clip h2,
+.gradient-secondary-code-clip h3,
+.gradient-secondary-code-clip table caption,
+table .gradient-secondary-code-clip caption,
+.gradient-secondary-code-clip h4,
+.gradient-secondary-code-clip h5,
+.gradient-secondary-code-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -10727,6 +11693,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--secondary-color), var(--light-color));
 }
 
+.gradient-secondary-light-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--secondary-color), var(--light-color));
+  text-shadow: none !important;
+}
+.gradient-secondary-light-clip h1,
+.gradient-secondary-light-clip h2,
+.gradient-secondary-light-clip h3,
+.gradient-secondary-light-clip table caption,
+table .gradient-secondary-light-clip caption,
+.gradient-secondary-light-clip h4,
+.gradient-secondary-light-clip h5,
+.gradient-secondary-light-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-secondary-light {
     background: var(--secondary-color);
@@ -10766,6 +11755,29 @@ a.link-dark {
 .gradient-secondary-dark {
   background: var(--secondary-color);
   background: linear-gradient(33deg, var(--secondary-color), var(--dark-color));
+}
+
+.gradient-secondary-dark-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--secondary-color), var(--dark-color));
+  text-shadow: none !important;
+}
+.gradient-secondary-dark-clip h1,
+.gradient-secondary-dark-clip h2,
+.gradient-secondary-dark-clip h3,
+.gradient-secondary-dark-clip table caption,
+table .gradient-secondary-dark-clip caption,
+.gradient-secondary-dark-clip h4,
+.gradient-secondary-dark-clip h5,
+.gradient-secondary-dark-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -10809,6 +11821,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--secondary-dark-color), var(--primary-color));
 }
 
+.gradient-secondary-dark-primary-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--secondary-dark-color), var(--primary-color));
+  text-shadow: none !important;
+}
+.gradient-secondary-dark-primary-clip h1,
+.gradient-secondary-dark-primary-clip h2,
+.gradient-secondary-dark-primary-clip h3,
+.gradient-secondary-dark-primary-clip table caption,
+table .gradient-secondary-dark-primary-clip caption,
+.gradient-secondary-dark-primary-clip h4,
+.gradient-secondary-dark-primary-clip h5,
+.gradient-secondary-dark-primary-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-secondary-dark-primary {
     background: var(--secondary-dark-color);
@@ -10848,6 +11883,29 @@ a.link-dark {
 .gradient-secondary-dark-primary-dark {
   background: var(--secondary-dark-color);
   background: linear-gradient(33deg, var(--secondary-dark-color), var(--primary-dark-color));
+}
+
+.gradient-secondary-dark-primary-dark-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--secondary-dark-color), var(--primary-dark-color));
+  text-shadow: none !important;
+}
+.gradient-secondary-dark-primary-dark-clip h1,
+.gradient-secondary-dark-primary-dark-clip h2,
+.gradient-secondary-dark-primary-dark-clip h3,
+.gradient-secondary-dark-primary-dark-clip table caption,
+table .gradient-secondary-dark-primary-dark-clip caption,
+.gradient-secondary-dark-primary-dark-clip h4,
+.gradient-secondary-dark-primary-dark-clip h5,
+.gradient-secondary-dark-primary-dark-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -10891,6 +11949,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--secondary-dark-color), var(--primary-light-color));
 }
 
+.gradient-secondary-dark-primary-light-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--secondary-dark-color), var(--primary-light-color));
+  text-shadow: none !important;
+}
+.gradient-secondary-dark-primary-light-clip h1,
+.gradient-secondary-dark-primary-light-clip h2,
+.gradient-secondary-dark-primary-light-clip h3,
+.gradient-secondary-dark-primary-light-clip table caption,
+table .gradient-secondary-dark-primary-light-clip caption,
+.gradient-secondary-dark-primary-light-clip h4,
+.gradient-secondary-dark-primary-light-clip h5,
+.gradient-secondary-dark-primary-light-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-secondary-dark-primary-light {
     background: var(--secondary-dark-color);
@@ -10930,6 +12011,29 @@ a.link-dark {
 .gradient-secondary-dark-secondary {
   background: var(--secondary-dark-color);
   background: linear-gradient(33deg, var(--secondary-dark-color), var(--secondary-color));
+}
+
+.gradient-secondary-dark-secondary-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--secondary-dark-color), var(--secondary-color));
+  text-shadow: none !important;
+}
+.gradient-secondary-dark-secondary-clip h1,
+.gradient-secondary-dark-secondary-clip h2,
+.gradient-secondary-dark-secondary-clip h3,
+.gradient-secondary-dark-secondary-clip table caption,
+table .gradient-secondary-dark-secondary-clip caption,
+.gradient-secondary-dark-secondary-clip h4,
+.gradient-secondary-dark-secondary-clip h5,
+.gradient-secondary-dark-secondary-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -10973,6 +12077,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--secondary-dark-color), var(--secondary-light-color));
 }
 
+.gradient-secondary-dark-secondary-light-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--secondary-dark-color), var(--secondary-light-color));
+  text-shadow: none !important;
+}
+.gradient-secondary-dark-secondary-light-clip h1,
+.gradient-secondary-dark-secondary-light-clip h2,
+.gradient-secondary-dark-secondary-light-clip h3,
+.gradient-secondary-dark-secondary-light-clip table caption,
+table .gradient-secondary-dark-secondary-light-clip caption,
+.gradient-secondary-dark-secondary-light-clip h4,
+.gradient-secondary-dark-secondary-light-clip h5,
+.gradient-secondary-dark-secondary-light-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-secondary-dark-secondary-light {
     background: var(--secondary-dark-color);
@@ -11012,6 +12139,29 @@ a.link-dark {
 .gradient-secondary-dark-success {
   background: var(--secondary-dark-color);
   background: linear-gradient(33deg, var(--secondary-dark-color), var(--success-color));
+}
+
+.gradient-secondary-dark-success-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--secondary-dark-color), var(--success-color));
+  text-shadow: none !important;
+}
+.gradient-secondary-dark-success-clip h1,
+.gradient-secondary-dark-success-clip h2,
+.gradient-secondary-dark-success-clip h3,
+.gradient-secondary-dark-success-clip table caption,
+table .gradient-secondary-dark-success-clip caption,
+.gradient-secondary-dark-success-clip h4,
+.gradient-secondary-dark-success-clip h5,
+.gradient-secondary-dark-success-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -11055,6 +12205,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--secondary-dark-color), var(--warning-color));
 }
 
+.gradient-secondary-dark-warning-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--secondary-dark-color), var(--warning-color));
+  text-shadow: none !important;
+}
+.gradient-secondary-dark-warning-clip h1,
+.gradient-secondary-dark-warning-clip h2,
+.gradient-secondary-dark-warning-clip h3,
+.gradient-secondary-dark-warning-clip table caption,
+table .gradient-secondary-dark-warning-clip caption,
+.gradient-secondary-dark-warning-clip h4,
+.gradient-secondary-dark-warning-clip h5,
+.gradient-secondary-dark-warning-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-secondary-dark-warning {
     background: var(--secondary-dark-color);
@@ -11094,6 +12267,29 @@ a.link-dark {
 .gradient-secondary-dark-danger {
   background: var(--secondary-dark-color);
   background: linear-gradient(33deg, var(--secondary-dark-color), var(--danger-color));
+}
+
+.gradient-secondary-dark-danger-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--secondary-dark-color), var(--danger-color));
+  text-shadow: none !important;
+}
+.gradient-secondary-dark-danger-clip h1,
+.gradient-secondary-dark-danger-clip h2,
+.gradient-secondary-dark-danger-clip h3,
+.gradient-secondary-dark-danger-clip table caption,
+table .gradient-secondary-dark-danger-clip caption,
+.gradient-secondary-dark-danger-clip h4,
+.gradient-secondary-dark-danger-clip h5,
+.gradient-secondary-dark-danger-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -11137,6 +12333,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--secondary-dark-color), var(--code-color));
 }
 
+.gradient-secondary-dark-code-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--secondary-dark-color), var(--code-color));
+  text-shadow: none !important;
+}
+.gradient-secondary-dark-code-clip h1,
+.gradient-secondary-dark-code-clip h2,
+.gradient-secondary-dark-code-clip h3,
+.gradient-secondary-dark-code-clip table caption,
+table .gradient-secondary-dark-code-clip caption,
+.gradient-secondary-dark-code-clip h4,
+.gradient-secondary-dark-code-clip h5,
+.gradient-secondary-dark-code-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-secondary-dark-code {
     background: var(--secondary-dark-color);
@@ -11176,6 +12395,29 @@ a.link-dark {
 .gradient-secondary-dark-light {
   background: var(--secondary-dark-color);
   background: linear-gradient(33deg, var(--secondary-dark-color), var(--light-color));
+}
+
+.gradient-secondary-dark-light-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--secondary-dark-color), var(--light-color));
+  text-shadow: none !important;
+}
+.gradient-secondary-dark-light-clip h1,
+.gradient-secondary-dark-light-clip h2,
+.gradient-secondary-dark-light-clip h3,
+.gradient-secondary-dark-light-clip table caption,
+table .gradient-secondary-dark-light-clip caption,
+.gradient-secondary-dark-light-clip h4,
+.gradient-secondary-dark-light-clip h5,
+.gradient-secondary-dark-light-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -11219,6 +12461,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--secondary-dark-color), var(--dark-color));
 }
 
+.gradient-secondary-dark-dark-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--secondary-dark-color), var(--dark-color));
+  text-shadow: none !important;
+}
+.gradient-secondary-dark-dark-clip h1,
+.gradient-secondary-dark-dark-clip h2,
+.gradient-secondary-dark-dark-clip h3,
+.gradient-secondary-dark-dark-clip table caption,
+table .gradient-secondary-dark-dark-clip caption,
+.gradient-secondary-dark-dark-clip h4,
+.gradient-secondary-dark-dark-clip h5,
+.gradient-secondary-dark-dark-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-secondary-dark-dark {
     background: var(--secondary-dark-color);
@@ -11258,6 +12523,29 @@ a.link-dark {
 .gradient-secondary-light-primary {
   background: var(--secondary-light-color);
   background: linear-gradient(33deg, var(--secondary-light-color), var(--primary-color));
+}
+
+.gradient-secondary-light-primary-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--secondary-light-color), var(--primary-color));
+  text-shadow: none !important;
+}
+.gradient-secondary-light-primary-clip h1,
+.gradient-secondary-light-primary-clip h2,
+.gradient-secondary-light-primary-clip h3,
+.gradient-secondary-light-primary-clip table caption,
+table .gradient-secondary-light-primary-clip caption,
+.gradient-secondary-light-primary-clip h4,
+.gradient-secondary-light-primary-clip h5,
+.gradient-secondary-light-primary-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -11301,6 +12589,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--secondary-light-color), var(--primary-dark-color));
 }
 
+.gradient-secondary-light-primary-dark-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--secondary-light-color), var(--primary-dark-color));
+  text-shadow: none !important;
+}
+.gradient-secondary-light-primary-dark-clip h1,
+.gradient-secondary-light-primary-dark-clip h2,
+.gradient-secondary-light-primary-dark-clip h3,
+.gradient-secondary-light-primary-dark-clip table caption,
+table .gradient-secondary-light-primary-dark-clip caption,
+.gradient-secondary-light-primary-dark-clip h4,
+.gradient-secondary-light-primary-dark-clip h5,
+.gradient-secondary-light-primary-dark-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-secondary-light-primary-dark {
     background: var(--secondary-light-color);
@@ -11340,6 +12651,29 @@ a.link-dark {
 .gradient-secondary-light-primary-light {
   background: var(--secondary-light-color);
   background: linear-gradient(33deg, var(--secondary-light-color), var(--primary-light-color));
+}
+
+.gradient-secondary-light-primary-light-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--secondary-light-color), var(--primary-light-color));
+  text-shadow: none !important;
+}
+.gradient-secondary-light-primary-light-clip h1,
+.gradient-secondary-light-primary-light-clip h2,
+.gradient-secondary-light-primary-light-clip h3,
+.gradient-secondary-light-primary-light-clip table caption,
+table .gradient-secondary-light-primary-light-clip caption,
+.gradient-secondary-light-primary-light-clip h4,
+.gradient-secondary-light-primary-light-clip h5,
+.gradient-secondary-light-primary-light-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -11383,6 +12717,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--secondary-light-color), var(--secondary-color));
 }
 
+.gradient-secondary-light-secondary-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--secondary-light-color), var(--secondary-color));
+  text-shadow: none !important;
+}
+.gradient-secondary-light-secondary-clip h1,
+.gradient-secondary-light-secondary-clip h2,
+.gradient-secondary-light-secondary-clip h3,
+.gradient-secondary-light-secondary-clip table caption,
+table .gradient-secondary-light-secondary-clip caption,
+.gradient-secondary-light-secondary-clip h4,
+.gradient-secondary-light-secondary-clip h5,
+.gradient-secondary-light-secondary-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-secondary-light-secondary {
     background: var(--secondary-light-color);
@@ -11422,6 +12779,29 @@ a.link-dark {
 .gradient-secondary-light-secondary-dark {
   background: var(--secondary-light-color);
   background: linear-gradient(33deg, var(--secondary-light-color), var(--secondary-dark-color));
+}
+
+.gradient-secondary-light-secondary-dark-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--secondary-light-color), var(--secondary-dark-color));
+  text-shadow: none !important;
+}
+.gradient-secondary-light-secondary-dark-clip h1,
+.gradient-secondary-light-secondary-dark-clip h2,
+.gradient-secondary-light-secondary-dark-clip h3,
+.gradient-secondary-light-secondary-dark-clip table caption,
+table .gradient-secondary-light-secondary-dark-clip caption,
+.gradient-secondary-light-secondary-dark-clip h4,
+.gradient-secondary-light-secondary-dark-clip h5,
+.gradient-secondary-light-secondary-dark-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -11465,6 +12845,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--secondary-light-color), var(--success-color));
 }
 
+.gradient-secondary-light-success-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--secondary-light-color), var(--success-color));
+  text-shadow: none !important;
+}
+.gradient-secondary-light-success-clip h1,
+.gradient-secondary-light-success-clip h2,
+.gradient-secondary-light-success-clip h3,
+.gradient-secondary-light-success-clip table caption,
+table .gradient-secondary-light-success-clip caption,
+.gradient-secondary-light-success-clip h4,
+.gradient-secondary-light-success-clip h5,
+.gradient-secondary-light-success-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-secondary-light-success {
     background: var(--secondary-light-color);
@@ -11504,6 +12907,29 @@ a.link-dark {
 .gradient-secondary-light-warning {
   background: var(--secondary-light-color);
   background: linear-gradient(33deg, var(--secondary-light-color), var(--warning-color));
+}
+
+.gradient-secondary-light-warning-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--secondary-light-color), var(--warning-color));
+  text-shadow: none !important;
+}
+.gradient-secondary-light-warning-clip h1,
+.gradient-secondary-light-warning-clip h2,
+.gradient-secondary-light-warning-clip h3,
+.gradient-secondary-light-warning-clip table caption,
+table .gradient-secondary-light-warning-clip caption,
+.gradient-secondary-light-warning-clip h4,
+.gradient-secondary-light-warning-clip h5,
+.gradient-secondary-light-warning-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -11547,6 +12973,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--secondary-light-color), var(--danger-color));
 }
 
+.gradient-secondary-light-danger-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--secondary-light-color), var(--danger-color));
+  text-shadow: none !important;
+}
+.gradient-secondary-light-danger-clip h1,
+.gradient-secondary-light-danger-clip h2,
+.gradient-secondary-light-danger-clip h3,
+.gradient-secondary-light-danger-clip table caption,
+table .gradient-secondary-light-danger-clip caption,
+.gradient-secondary-light-danger-clip h4,
+.gradient-secondary-light-danger-clip h5,
+.gradient-secondary-light-danger-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-secondary-light-danger {
     background: var(--secondary-light-color);
@@ -11586,6 +13035,29 @@ a.link-dark {
 .gradient-secondary-light-code {
   background: var(--secondary-light-color);
   background: linear-gradient(33deg, var(--secondary-light-color), var(--code-color));
+}
+
+.gradient-secondary-light-code-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--secondary-light-color), var(--code-color));
+  text-shadow: none !important;
+}
+.gradient-secondary-light-code-clip h1,
+.gradient-secondary-light-code-clip h2,
+.gradient-secondary-light-code-clip h3,
+.gradient-secondary-light-code-clip table caption,
+table .gradient-secondary-light-code-clip caption,
+.gradient-secondary-light-code-clip h4,
+.gradient-secondary-light-code-clip h5,
+.gradient-secondary-light-code-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -11629,6 +13101,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--secondary-light-color), var(--light-color));
 }
 
+.gradient-secondary-light-light-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--secondary-light-color), var(--light-color));
+  text-shadow: none !important;
+}
+.gradient-secondary-light-light-clip h1,
+.gradient-secondary-light-light-clip h2,
+.gradient-secondary-light-light-clip h3,
+.gradient-secondary-light-light-clip table caption,
+table .gradient-secondary-light-light-clip caption,
+.gradient-secondary-light-light-clip h4,
+.gradient-secondary-light-light-clip h5,
+.gradient-secondary-light-light-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-secondary-light-light {
     background: var(--secondary-light-color);
@@ -11668,6 +13163,29 @@ a.link-dark {
 .gradient-secondary-light-dark {
   background: var(--secondary-light-color);
   background: linear-gradient(33deg, var(--secondary-light-color), var(--dark-color));
+}
+
+.gradient-secondary-light-dark-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--secondary-light-color), var(--dark-color));
+  text-shadow: none !important;
+}
+.gradient-secondary-light-dark-clip h1,
+.gradient-secondary-light-dark-clip h2,
+.gradient-secondary-light-dark-clip h3,
+.gradient-secondary-light-dark-clip table caption,
+table .gradient-secondary-light-dark-clip caption,
+.gradient-secondary-light-dark-clip h4,
+.gradient-secondary-light-dark-clip h5,
+.gradient-secondary-light-dark-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -11711,6 +13229,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--success-color), var(--primary-color));
 }
 
+.gradient-success-primary-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--success-color), var(--primary-color));
+  text-shadow: none !important;
+}
+.gradient-success-primary-clip h1,
+.gradient-success-primary-clip h2,
+.gradient-success-primary-clip h3,
+.gradient-success-primary-clip table caption,
+table .gradient-success-primary-clip caption,
+.gradient-success-primary-clip h4,
+.gradient-success-primary-clip h5,
+.gradient-success-primary-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-success-primary {
     background: var(--success-color);
@@ -11750,6 +13291,29 @@ a.link-dark {
 .gradient-success-primary-dark {
   background: var(--success-color);
   background: linear-gradient(33deg, var(--success-color), var(--primary-dark-color));
+}
+
+.gradient-success-primary-dark-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--success-color), var(--primary-dark-color));
+  text-shadow: none !important;
+}
+.gradient-success-primary-dark-clip h1,
+.gradient-success-primary-dark-clip h2,
+.gradient-success-primary-dark-clip h3,
+.gradient-success-primary-dark-clip table caption,
+table .gradient-success-primary-dark-clip caption,
+.gradient-success-primary-dark-clip h4,
+.gradient-success-primary-dark-clip h5,
+.gradient-success-primary-dark-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -11793,6 +13357,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--success-color), var(--primary-light-color));
 }
 
+.gradient-success-primary-light-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--success-color), var(--primary-light-color));
+  text-shadow: none !important;
+}
+.gradient-success-primary-light-clip h1,
+.gradient-success-primary-light-clip h2,
+.gradient-success-primary-light-clip h3,
+.gradient-success-primary-light-clip table caption,
+table .gradient-success-primary-light-clip caption,
+.gradient-success-primary-light-clip h4,
+.gradient-success-primary-light-clip h5,
+.gradient-success-primary-light-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-success-primary-light {
     background: var(--success-color);
@@ -11832,6 +13419,29 @@ a.link-dark {
 .gradient-success-secondary {
   background: var(--success-color);
   background: linear-gradient(33deg, var(--success-color), var(--secondary-color));
+}
+
+.gradient-success-secondary-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--success-color), var(--secondary-color));
+  text-shadow: none !important;
+}
+.gradient-success-secondary-clip h1,
+.gradient-success-secondary-clip h2,
+.gradient-success-secondary-clip h3,
+.gradient-success-secondary-clip table caption,
+table .gradient-success-secondary-clip caption,
+.gradient-success-secondary-clip h4,
+.gradient-success-secondary-clip h5,
+.gradient-success-secondary-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -11875,6 +13485,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--success-color), var(--secondary-dark-color));
 }
 
+.gradient-success-secondary-dark-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--success-color), var(--secondary-dark-color));
+  text-shadow: none !important;
+}
+.gradient-success-secondary-dark-clip h1,
+.gradient-success-secondary-dark-clip h2,
+.gradient-success-secondary-dark-clip h3,
+.gradient-success-secondary-dark-clip table caption,
+table .gradient-success-secondary-dark-clip caption,
+.gradient-success-secondary-dark-clip h4,
+.gradient-success-secondary-dark-clip h5,
+.gradient-success-secondary-dark-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-success-secondary-dark {
     background: var(--success-color);
@@ -11914,6 +13547,29 @@ a.link-dark {
 .gradient-success-secondary-light {
   background: var(--success-color);
   background: linear-gradient(33deg, var(--success-color), var(--secondary-light-color));
+}
+
+.gradient-success-secondary-light-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--success-color), var(--secondary-light-color));
+  text-shadow: none !important;
+}
+.gradient-success-secondary-light-clip h1,
+.gradient-success-secondary-light-clip h2,
+.gradient-success-secondary-light-clip h3,
+.gradient-success-secondary-light-clip table caption,
+table .gradient-success-secondary-light-clip caption,
+.gradient-success-secondary-light-clip h4,
+.gradient-success-secondary-light-clip h5,
+.gradient-success-secondary-light-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -11957,6 +13613,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--success-color), var(--warning-color));
 }
 
+.gradient-success-warning-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--success-color), var(--warning-color));
+  text-shadow: none !important;
+}
+.gradient-success-warning-clip h1,
+.gradient-success-warning-clip h2,
+.gradient-success-warning-clip h3,
+.gradient-success-warning-clip table caption,
+table .gradient-success-warning-clip caption,
+.gradient-success-warning-clip h4,
+.gradient-success-warning-clip h5,
+.gradient-success-warning-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-success-warning {
     background: var(--success-color);
@@ -11996,6 +13675,29 @@ a.link-dark {
 .gradient-success-danger {
   background: var(--success-color);
   background: linear-gradient(33deg, var(--success-color), var(--danger-color));
+}
+
+.gradient-success-danger-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--success-color), var(--danger-color));
+  text-shadow: none !important;
+}
+.gradient-success-danger-clip h1,
+.gradient-success-danger-clip h2,
+.gradient-success-danger-clip h3,
+.gradient-success-danger-clip table caption,
+table .gradient-success-danger-clip caption,
+.gradient-success-danger-clip h4,
+.gradient-success-danger-clip h5,
+.gradient-success-danger-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -12039,6 +13741,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--success-color), var(--code-color));
 }
 
+.gradient-success-code-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--success-color), var(--code-color));
+  text-shadow: none !important;
+}
+.gradient-success-code-clip h1,
+.gradient-success-code-clip h2,
+.gradient-success-code-clip h3,
+.gradient-success-code-clip table caption,
+table .gradient-success-code-clip caption,
+.gradient-success-code-clip h4,
+.gradient-success-code-clip h5,
+.gradient-success-code-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-success-code {
     background: var(--success-color);
@@ -12078,6 +13803,29 @@ a.link-dark {
 .gradient-success-light {
   background: var(--success-color);
   background: linear-gradient(33deg, var(--success-color), var(--light-color));
+}
+
+.gradient-success-light-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--success-color), var(--light-color));
+  text-shadow: none !important;
+}
+.gradient-success-light-clip h1,
+.gradient-success-light-clip h2,
+.gradient-success-light-clip h3,
+.gradient-success-light-clip table caption,
+table .gradient-success-light-clip caption,
+.gradient-success-light-clip h4,
+.gradient-success-light-clip h5,
+.gradient-success-light-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -12121,6 +13869,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--success-color), var(--dark-color));
 }
 
+.gradient-success-dark-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--success-color), var(--dark-color));
+  text-shadow: none !important;
+}
+.gradient-success-dark-clip h1,
+.gradient-success-dark-clip h2,
+.gradient-success-dark-clip h3,
+.gradient-success-dark-clip table caption,
+table .gradient-success-dark-clip caption,
+.gradient-success-dark-clip h4,
+.gradient-success-dark-clip h5,
+.gradient-success-dark-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-success-dark {
     background: var(--success-color);
@@ -12160,6 +13931,29 @@ a.link-dark {
 .gradient-warning-primary {
   background: var(--warning-color);
   background: linear-gradient(33deg, var(--warning-color), var(--primary-color));
+}
+
+.gradient-warning-primary-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--warning-color), var(--primary-color));
+  text-shadow: none !important;
+}
+.gradient-warning-primary-clip h1,
+.gradient-warning-primary-clip h2,
+.gradient-warning-primary-clip h3,
+.gradient-warning-primary-clip table caption,
+table .gradient-warning-primary-clip caption,
+.gradient-warning-primary-clip h4,
+.gradient-warning-primary-clip h5,
+.gradient-warning-primary-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -12203,6 +13997,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--warning-color), var(--primary-dark-color));
 }
 
+.gradient-warning-primary-dark-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--warning-color), var(--primary-dark-color));
+  text-shadow: none !important;
+}
+.gradient-warning-primary-dark-clip h1,
+.gradient-warning-primary-dark-clip h2,
+.gradient-warning-primary-dark-clip h3,
+.gradient-warning-primary-dark-clip table caption,
+table .gradient-warning-primary-dark-clip caption,
+.gradient-warning-primary-dark-clip h4,
+.gradient-warning-primary-dark-clip h5,
+.gradient-warning-primary-dark-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-warning-primary-dark {
     background: var(--warning-color);
@@ -12242,6 +14059,29 @@ a.link-dark {
 .gradient-warning-primary-light {
   background: var(--warning-color);
   background: linear-gradient(33deg, var(--warning-color), var(--primary-light-color));
+}
+
+.gradient-warning-primary-light-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--warning-color), var(--primary-light-color));
+  text-shadow: none !important;
+}
+.gradient-warning-primary-light-clip h1,
+.gradient-warning-primary-light-clip h2,
+.gradient-warning-primary-light-clip h3,
+.gradient-warning-primary-light-clip table caption,
+table .gradient-warning-primary-light-clip caption,
+.gradient-warning-primary-light-clip h4,
+.gradient-warning-primary-light-clip h5,
+.gradient-warning-primary-light-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -12285,6 +14125,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--warning-color), var(--secondary-color));
 }
 
+.gradient-warning-secondary-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--warning-color), var(--secondary-color));
+  text-shadow: none !important;
+}
+.gradient-warning-secondary-clip h1,
+.gradient-warning-secondary-clip h2,
+.gradient-warning-secondary-clip h3,
+.gradient-warning-secondary-clip table caption,
+table .gradient-warning-secondary-clip caption,
+.gradient-warning-secondary-clip h4,
+.gradient-warning-secondary-clip h5,
+.gradient-warning-secondary-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-warning-secondary {
     background: var(--warning-color);
@@ -12324,6 +14187,29 @@ a.link-dark {
 .gradient-warning-secondary-dark {
   background: var(--warning-color);
   background: linear-gradient(33deg, var(--warning-color), var(--secondary-dark-color));
+}
+
+.gradient-warning-secondary-dark-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--warning-color), var(--secondary-dark-color));
+  text-shadow: none !important;
+}
+.gradient-warning-secondary-dark-clip h1,
+.gradient-warning-secondary-dark-clip h2,
+.gradient-warning-secondary-dark-clip h3,
+.gradient-warning-secondary-dark-clip table caption,
+table .gradient-warning-secondary-dark-clip caption,
+.gradient-warning-secondary-dark-clip h4,
+.gradient-warning-secondary-dark-clip h5,
+.gradient-warning-secondary-dark-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -12367,6 +14253,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--warning-color), var(--secondary-light-color));
 }
 
+.gradient-warning-secondary-light-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--warning-color), var(--secondary-light-color));
+  text-shadow: none !important;
+}
+.gradient-warning-secondary-light-clip h1,
+.gradient-warning-secondary-light-clip h2,
+.gradient-warning-secondary-light-clip h3,
+.gradient-warning-secondary-light-clip table caption,
+table .gradient-warning-secondary-light-clip caption,
+.gradient-warning-secondary-light-clip h4,
+.gradient-warning-secondary-light-clip h5,
+.gradient-warning-secondary-light-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-warning-secondary-light {
     background: var(--warning-color);
@@ -12406,6 +14315,29 @@ a.link-dark {
 .gradient-warning-success {
   background: var(--warning-color);
   background: linear-gradient(33deg, var(--warning-color), var(--success-color));
+}
+
+.gradient-warning-success-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--warning-color), var(--success-color));
+  text-shadow: none !important;
+}
+.gradient-warning-success-clip h1,
+.gradient-warning-success-clip h2,
+.gradient-warning-success-clip h3,
+.gradient-warning-success-clip table caption,
+table .gradient-warning-success-clip caption,
+.gradient-warning-success-clip h4,
+.gradient-warning-success-clip h5,
+.gradient-warning-success-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -12449,6 +14381,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--warning-color), var(--danger-color));
 }
 
+.gradient-warning-danger-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--warning-color), var(--danger-color));
+  text-shadow: none !important;
+}
+.gradient-warning-danger-clip h1,
+.gradient-warning-danger-clip h2,
+.gradient-warning-danger-clip h3,
+.gradient-warning-danger-clip table caption,
+table .gradient-warning-danger-clip caption,
+.gradient-warning-danger-clip h4,
+.gradient-warning-danger-clip h5,
+.gradient-warning-danger-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-warning-danger {
     background: var(--warning-color);
@@ -12488,6 +14443,29 @@ a.link-dark {
 .gradient-warning-code {
   background: var(--warning-color);
   background: linear-gradient(33deg, var(--warning-color), var(--code-color));
+}
+
+.gradient-warning-code-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--warning-color), var(--code-color));
+  text-shadow: none !important;
+}
+.gradient-warning-code-clip h1,
+.gradient-warning-code-clip h2,
+.gradient-warning-code-clip h3,
+.gradient-warning-code-clip table caption,
+table .gradient-warning-code-clip caption,
+.gradient-warning-code-clip h4,
+.gradient-warning-code-clip h5,
+.gradient-warning-code-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -12531,6 +14509,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--warning-color), var(--light-color));
 }
 
+.gradient-warning-light-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--warning-color), var(--light-color));
+  text-shadow: none !important;
+}
+.gradient-warning-light-clip h1,
+.gradient-warning-light-clip h2,
+.gradient-warning-light-clip h3,
+.gradient-warning-light-clip table caption,
+table .gradient-warning-light-clip caption,
+.gradient-warning-light-clip h4,
+.gradient-warning-light-clip h5,
+.gradient-warning-light-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-warning-light {
     background: var(--warning-color);
@@ -12570,6 +14571,29 @@ a.link-dark {
 .gradient-warning-dark {
   background: var(--warning-color);
   background: linear-gradient(33deg, var(--warning-color), var(--dark-color));
+}
+
+.gradient-warning-dark-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--warning-color), var(--dark-color));
+  text-shadow: none !important;
+}
+.gradient-warning-dark-clip h1,
+.gradient-warning-dark-clip h2,
+.gradient-warning-dark-clip h3,
+.gradient-warning-dark-clip table caption,
+table .gradient-warning-dark-clip caption,
+.gradient-warning-dark-clip h4,
+.gradient-warning-dark-clip h5,
+.gradient-warning-dark-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -12613,6 +14637,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--danger-color), var(--primary-color));
 }
 
+.gradient-danger-primary-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--danger-color), var(--primary-color));
+  text-shadow: none !important;
+}
+.gradient-danger-primary-clip h1,
+.gradient-danger-primary-clip h2,
+.gradient-danger-primary-clip h3,
+.gradient-danger-primary-clip table caption,
+table .gradient-danger-primary-clip caption,
+.gradient-danger-primary-clip h4,
+.gradient-danger-primary-clip h5,
+.gradient-danger-primary-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-danger-primary {
     background: var(--danger-color);
@@ -12652,6 +14699,29 @@ a.link-dark {
 .gradient-danger-primary-dark {
   background: var(--danger-color);
   background: linear-gradient(33deg, var(--danger-color), var(--primary-dark-color));
+}
+
+.gradient-danger-primary-dark-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--danger-color), var(--primary-dark-color));
+  text-shadow: none !important;
+}
+.gradient-danger-primary-dark-clip h1,
+.gradient-danger-primary-dark-clip h2,
+.gradient-danger-primary-dark-clip h3,
+.gradient-danger-primary-dark-clip table caption,
+table .gradient-danger-primary-dark-clip caption,
+.gradient-danger-primary-dark-clip h4,
+.gradient-danger-primary-dark-clip h5,
+.gradient-danger-primary-dark-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -12695,6 +14765,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--danger-color), var(--primary-light-color));
 }
 
+.gradient-danger-primary-light-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--danger-color), var(--primary-light-color));
+  text-shadow: none !important;
+}
+.gradient-danger-primary-light-clip h1,
+.gradient-danger-primary-light-clip h2,
+.gradient-danger-primary-light-clip h3,
+.gradient-danger-primary-light-clip table caption,
+table .gradient-danger-primary-light-clip caption,
+.gradient-danger-primary-light-clip h4,
+.gradient-danger-primary-light-clip h5,
+.gradient-danger-primary-light-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-danger-primary-light {
     background: var(--danger-color);
@@ -12734,6 +14827,29 @@ a.link-dark {
 .gradient-danger-secondary {
   background: var(--danger-color);
   background: linear-gradient(33deg, var(--danger-color), var(--secondary-color));
+}
+
+.gradient-danger-secondary-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--danger-color), var(--secondary-color));
+  text-shadow: none !important;
+}
+.gradient-danger-secondary-clip h1,
+.gradient-danger-secondary-clip h2,
+.gradient-danger-secondary-clip h3,
+.gradient-danger-secondary-clip table caption,
+table .gradient-danger-secondary-clip caption,
+.gradient-danger-secondary-clip h4,
+.gradient-danger-secondary-clip h5,
+.gradient-danger-secondary-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -12777,6 +14893,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--danger-color), var(--secondary-dark-color));
 }
 
+.gradient-danger-secondary-dark-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--danger-color), var(--secondary-dark-color));
+  text-shadow: none !important;
+}
+.gradient-danger-secondary-dark-clip h1,
+.gradient-danger-secondary-dark-clip h2,
+.gradient-danger-secondary-dark-clip h3,
+.gradient-danger-secondary-dark-clip table caption,
+table .gradient-danger-secondary-dark-clip caption,
+.gradient-danger-secondary-dark-clip h4,
+.gradient-danger-secondary-dark-clip h5,
+.gradient-danger-secondary-dark-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-danger-secondary-dark {
     background: var(--danger-color);
@@ -12816,6 +14955,29 @@ a.link-dark {
 .gradient-danger-secondary-light {
   background: var(--danger-color);
   background: linear-gradient(33deg, var(--danger-color), var(--secondary-light-color));
+}
+
+.gradient-danger-secondary-light-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--danger-color), var(--secondary-light-color));
+  text-shadow: none !important;
+}
+.gradient-danger-secondary-light-clip h1,
+.gradient-danger-secondary-light-clip h2,
+.gradient-danger-secondary-light-clip h3,
+.gradient-danger-secondary-light-clip table caption,
+table .gradient-danger-secondary-light-clip caption,
+.gradient-danger-secondary-light-clip h4,
+.gradient-danger-secondary-light-clip h5,
+.gradient-danger-secondary-light-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -12859,6 +15021,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--danger-color), var(--success-color));
 }
 
+.gradient-danger-success-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--danger-color), var(--success-color));
+  text-shadow: none !important;
+}
+.gradient-danger-success-clip h1,
+.gradient-danger-success-clip h2,
+.gradient-danger-success-clip h3,
+.gradient-danger-success-clip table caption,
+table .gradient-danger-success-clip caption,
+.gradient-danger-success-clip h4,
+.gradient-danger-success-clip h5,
+.gradient-danger-success-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-danger-success {
     background: var(--danger-color);
@@ -12898,6 +15083,29 @@ a.link-dark {
 .gradient-danger-warning {
   background: var(--danger-color);
   background: linear-gradient(33deg, var(--danger-color), var(--warning-color));
+}
+
+.gradient-danger-warning-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--danger-color), var(--warning-color));
+  text-shadow: none !important;
+}
+.gradient-danger-warning-clip h1,
+.gradient-danger-warning-clip h2,
+.gradient-danger-warning-clip h3,
+.gradient-danger-warning-clip table caption,
+table .gradient-danger-warning-clip caption,
+.gradient-danger-warning-clip h4,
+.gradient-danger-warning-clip h5,
+.gradient-danger-warning-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -12941,6 +15149,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--danger-color), var(--code-color));
 }
 
+.gradient-danger-code-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--danger-color), var(--code-color));
+  text-shadow: none !important;
+}
+.gradient-danger-code-clip h1,
+.gradient-danger-code-clip h2,
+.gradient-danger-code-clip h3,
+.gradient-danger-code-clip table caption,
+table .gradient-danger-code-clip caption,
+.gradient-danger-code-clip h4,
+.gradient-danger-code-clip h5,
+.gradient-danger-code-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-danger-code {
     background: var(--danger-color);
@@ -12980,6 +15211,29 @@ a.link-dark {
 .gradient-danger-light {
   background: var(--danger-color);
   background: linear-gradient(33deg, var(--danger-color), var(--light-color));
+}
+
+.gradient-danger-light-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--danger-color), var(--light-color));
+  text-shadow: none !important;
+}
+.gradient-danger-light-clip h1,
+.gradient-danger-light-clip h2,
+.gradient-danger-light-clip h3,
+.gradient-danger-light-clip table caption,
+table .gradient-danger-light-clip caption,
+.gradient-danger-light-clip h4,
+.gradient-danger-light-clip h5,
+.gradient-danger-light-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -13023,6 +15277,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--danger-color), var(--dark-color));
 }
 
+.gradient-danger-dark-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--danger-color), var(--dark-color));
+  text-shadow: none !important;
+}
+.gradient-danger-dark-clip h1,
+.gradient-danger-dark-clip h2,
+.gradient-danger-dark-clip h3,
+.gradient-danger-dark-clip table caption,
+table .gradient-danger-dark-clip caption,
+.gradient-danger-dark-clip h4,
+.gradient-danger-dark-clip h5,
+.gradient-danger-dark-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-danger-dark {
     background: var(--danger-color);
@@ -13062,6 +15339,29 @@ a.link-dark {
 .gradient-code-primary {
   background: var(--code-color);
   background: linear-gradient(33deg, var(--code-color), var(--primary-color));
+}
+
+.gradient-code-primary-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--code-color), var(--primary-color));
+  text-shadow: none !important;
+}
+.gradient-code-primary-clip h1,
+.gradient-code-primary-clip h2,
+.gradient-code-primary-clip h3,
+.gradient-code-primary-clip table caption,
+table .gradient-code-primary-clip caption,
+.gradient-code-primary-clip h4,
+.gradient-code-primary-clip h5,
+.gradient-code-primary-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -13105,6 +15405,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--code-color), var(--primary-dark-color));
 }
 
+.gradient-code-primary-dark-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--code-color), var(--primary-dark-color));
+  text-shadow: none !important;
+}
+.gradient-code-primary-dark-clip h1,
+.gradient-code-primary-dark-clip h2,
+.gradient-code-primary-dark-clip h3,
+.gradient-code-primary-dark-clip table caption,
+table .gradient-code-primary-dark-clip caption,
+.gradient-code-primary-dark-clip h4,
+.gradient-code-primary-dark-clip h5,
+.gradient-code-primary-dark-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-code-primary-dark {
     background: var(--code-color);
@@ -13144,6 +15467,29 @@ a.link-dark {
 .gradient-code-primary-light {
   background: var(--code-color);
   background: linear-gradient(33deg, var(--code-color), var(--primary-light-color));
+}
+
+.gradient-code-primary-light-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--code-color), var(--primary-light-color));
+  text-shadow: none !important;
+}
+.gradient-code-primary-light-clip h1,
+.gradient-code-primary-light-clip h2,
+.gradient-code-primary-light-clip h3,
+.gradient-code-primary-light-clip table caption,
+table .gradient-code-primary-light-clip caption,
+.gradient-code-primary-light-clip h4,
+.gradient-code-primary-light-clip h5,
+.gradient-code-primary-light-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -13187,6 +15533,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--code-color), var(--secondary-color));
 }
 
+.gradient-code-secondary-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--code-color), var(--secondary-color));
+  text-shadow: none !important;
+}
+.gradient-code-secondary-clip h1,
+.gradient-code-secondary-clip h2,
+.gradient-code-secondary-clip h3,
+.gradient-code-secondary-clip table caption,
+table .gradient-code-secondary-clip caption,
+.gradient-code-secondary-clip h4,
+.gradient-code-secondary-clip h5,
+.gradient-code-secondary-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-code-secondary {
     background: var(--code-color);
@@ -13226,6 +15595,29 @@ a.link-dark {
 .gradient-code-secondary-dark {
   background: var(--code-color);
   background: linear-gradient(33deg, var(--code-color), var(--secondary-dark-color));
+}
+
+.gradient-code-secondary-dark-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--code-color), var(--secondary-dark-color));
+  text-shadow: none !important;
+}
+.gradient-code-secondary-dark-clip h1,
+.gradient-code-secondary-dark-clip h2,
+.gradient-code-secondary-dark-clip h3,
+.gradient-code-secondary-dark-clip table caption,
+table .gradient-code-secondary-dark-clip caption,
+.gradient-code-secondary-dark-clip h4,
+.gradient-code-secondary-dark-clip h5,
+.gradient-code-secondary-dark-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -13269,6 +15661,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--code-color), var(--secondary-light-color));
 }
 
+.gradient-code-secondary-light-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--code-color), var(--secondary-light-color));
+  text-shadow: none !important;
+}
+.gradient-code-secondary-light-clip h1,
+.gradient-code-secondary-light-clip h2,
+.gradient-code-secondary-light-clip h3,
+.gradient-code-secondary-light-clip table caption,
+table .gradient-code-secondary-light-clip caption,
+.gradient-code-secondary-light-clip h4,
+.gradient-code-secondary-light-clip h5,
+.gradient-code-secondary-light-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-code-secondary-light {
     background: var(--code-color);
@@ -13308,6 +15723,29 @@ a.link-dark {
 .gradient-code-success {
   background: var(--code-color);
   background: linear-gradient(33deg, var(--code-color), var(--success-color));
+}
+
+.gradient-code-success-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--code-color), var(--success-color));
+  text-shadow: none !important;
+}
+.gradient-code-success-clip h1,
+.gradient-code-success-clip h2,
+.gradient-code-success-clip h3,
+.gradient-code-success-clip table caption,
+table .gradient-code-success-clip caption,
+.gradient-code-success-clip h4,
+.gradient-code-success-clip h5,
+.gradient-code-success-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -13351,6 +15789,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--code-color), var(--warning-color));
 }
 
+.gradient-code-warning-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--code-color), var(--warning-color));
+  text-shadow: none !important;
+}
+.gradient-code-warning-clip h1,
+.gradient-code-warning-clip h2,
+.gradient-code-warning-clip h3,
+.gradient-code-warning-clip table caption,
+table .gradient-code-warning-clip caption,
+.gradient-code-warning-clip h4,
+.gradient-code-warning-clip h5,
+.gradient-code-warning-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-code-warning {
     background: var(--code-color);
@@ -13390,6 +15851,29 @@ a.link-dark {
 .gradient-code-danger {
   background: var(--code-color);
   background: linear-gradient(33deg, var(--code-color), var(--danger-color));
+}
+
+.gradient-code-danger-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--code-color), var(--danger-color));
+  text-shadow: none !important;
+}
+.gradient-code-danger-clip h1,
+.gradient-code-danger-clip h2,
+.gradient-code-danger-clip h3,
+.gradient-code-danger-clip table caption,
+table .gradient-code-danger-clip caption,
+.gradient-code-danger-clip h4,
+.gradient-code-danger-clip h5,
+.gradient-code-danger-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -13433,6 +15917,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--code-color), var(--light-color));
 }
 
+.gradient-code-light-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--code-color), var(--light-color));
+  text-shadow: none !important;
+}
+.gradient-code-light-clip h1,
+.gradient-code-light-clip h2,
+.gradient-code-light-clip h3,
+.gradient-code-light-clip table caption,
+table .gradient-code-light-clip caption,
+.gradient-code-light-clip h4,
+.gradient-code-light-clip h5,
+.gradient-code-light-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-code-light {
     background: var(--code-color);
@@ -13472,6 +15979,29 @@ a.link-dark {
 .gradient-code-dark {
   background: var(--code-color);
   background: linear-gradient(33deg, var(--code-color), var(--dark-color));
+}
+
+.gradient-code-dark-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--code-color), var(--dark-color));
+  text-shadow: none !important;
+}
+.gradient-code-dark-clip h1,
+.gradient-code-dark-clip h2,
+.gradient-code-dark-clip h3,
+.gradient-code-dark-clip table caption,
+table .gradient-code-dark-clip caption,
+.gradient-code-dark-clip h4,
+.gradient-code-dark-clip h5,
+.gradient-code-dark-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -13515,6 +16045,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--light-color), var(--primary-color));
 }
 
+.gradient-light-primary-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--light-color), var(--primary-color));
+  text-shadow: none !important;
+}
+.gradient-light-primary-clip h1,
+.gradient-light-primary-clip h2,
+.gradient-light-primary-clip h3,
+.gradient-light-primary-clip table caption,
+table .gradient-light-primary-clip caption,
+.gradient-light-primary-clip h4,
+.gradient-light-primary-clip h5,
+.gradient-light-primary-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-light-primary {
     background: var(--light-color);
@@ -13554,6 +16107,29 @@ a.link-dark {
 .gradient-light-primary-dark {
   background: var(--light-color);
   background: linear-gradient(33deg, var(--light-color), var(--primary-dark-color));
+}
+
+.gradient-light-primary-dark-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--light-color), var(--primary-dark-color));
+  text-shadow: none !important;
+}
+.gradient-light-primary-dark-clip h1,
+.gradient-light-primary-dark-clip h2,
+.gradient-light-primary-dark-clip h3,
+.gradient-light-primary-dark-clip table caption,
+table .gradient-light-primary-dark-clip caption,
+.gradient-light-primary-dark-clip h4,
+.gradient-light-primary-dark-clip h5,
+.gradient-light-primary-dark-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -13597,6 +16173,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--light-color), var(--primary-light-color));
 }
 
+.gradient-light-primary-light-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--light-color), var(--primary-light-color));
+  text-shadow: none !important;
+}
+.gradient-light-primary-light-clip h1,
+.gradient-light-primary-light-clip h2,
+.gradient-light-primary-light-clip h3,
+.gradient-light-primary-light-clip table caption,
+table .gradient-light-primary-light-clip caption,
+.gradient-light-primary-light-clip h4,
+.gradient-light-primary-light-clip h5,
+.gradient-light-primary-light-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-light-primary-light {
     background: var(--light-color);
@@ -13636,6 +16235,29 @@ a.link-dark {
 .gradient-light-secondary {
   background: var(--light-color);
   background: linear-gradient(33deg, var(--light-color), var(--secondary-color));
+}
+
+.gradient-light-secondary-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--light-color), var(--secondary-color));
+  text-shadow: none !important;
+}
+.gradient-light-secondary-clip h1,
+.gradient-light-secondary-clip h2,
+.gradient-light-secondary-clip h3,
+.gradient-light-secondary-clip table caption,
+table .gradient-light-secondary-clip caption,
+.gradient-light-secondary-clip h4,
+.gradient-light-secondary-clip h5,
+.gradient-light-secondary-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -13679,6 +16301,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--light-color), var(--secondary-dark-color));
 }
 
+.gradient-light-secondary-dark-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--light-color), var(--secondary-dark-color));
+  text-shadow: none !important;
+}
+.gradient-light-secondary-dark-clip h1,
+.gradient-light-secondary-dark-clip h2,
+.gradient-light-secondary-dark-clip h3,
+.gradient-light-secondary-dark-clip table caption,
+table .gradient-light-secondary-dark-clip caption,
+.gradient-light-secondary-dark-clip h4,
+.gradient-light-secondary-dark-clip h5,
+.gradient-light-secondary-dark-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-light-secondary-dark {
     background: var(--light-color);
@@ -13718,6 +16363,29 @@ a.link-dark {
 .gradient-light-secondary-light {
   background: var(--light-color);
   background: linear-gradient(33deg, var(--light-color), var(--secondary-light-color));
+}
+
+.gradient-light-secondary-light-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--light-color), var(--secondary-light-color));
+  text-shadow: none !important;
+}
+.gradient-light-secondary-light-clip h1,
+.gradient-light-secondary-light-clip h2,
+.gradient-light-secondary-light-clip h3,
+.gradient-light-secondary-light-clip table caption,
+table .gradient-light-secondary-light-clip caption,
+.gradient-light-secondary-light-clip h4,
+.gradient-light-secondary-light-clip h5,
+.gradient-light-secondary-light-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -13761,6 +16429,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--light-color), var(--success-color));
 }
 
+.gradient-light-success-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--light-color), var(--success-color));
+  text-shadow: none !important;
+}
+.gradient-light-success-clip h1,
+.gradient-light-success-clip h2,
+.gradient-light-success-clip h3,
+.gradient-light-success-clip table caption,
+table .gradient-light-success-clip caption,
+.gradient-light-success-clip h4,
+.gradient-light-success-clip h5,
+.gradient-light-success-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-light-success {
     background: var(--light-color);
@@ -13800,6 +16491,29 @@ a.link-dark {
 .gradient-light-warning {
   background: var(--light-color);
   background: linear-gradient(33deg, var(--light-color), var(--warning-color));
+}
+
+.gradient-light-warning-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--light-color), var(--warning-color));
+  text-shadow: none !important;
+}
+.gradient-light-warning-clip h1,
+.gradient-light-warning-clip h2,
+.gradient-light-warning-clip h3,
+.gradient-light-warning-clip table caption,
+table .gradient-light-warning-clip caption,
+.gradient-light-warning-clip h4,
+.gradient-light-warning-clip h5,
+.gradient-light-warning-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -13843,6 +16557,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--light-color), var(--danger-color));
 }
 
+.gradient-light-danger-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--light-color), var(--danger-color));
+  text-shadow: none !important;
+}
+.gradient-light-danger-clip h1,
+.gradient-light-danger-clip h2,
+.gradient-light-danger-clip h3,
+.gradient-light-danger-clip table caption,
+table .gradient-light-danger-clip caption,
+.gradient-light-danger-clip h4,
+.gradient-light-danger-clip h5,
+.gradient-light-danger-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-light-danger {
     background: var(--light-color);
@@ -13882,6 +16619,29 @@ a.link-dark {
 .gradient-light-code {
   background: var(--light-color);
   background: linear-gradient(33deg, var(--light-color), var(--code-color));
+}
+
+.gradient-light-code-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--light-color), var(--code-color));
+  text-shadow: none !important;
+}
+.gradient-light-code-clip h1,
+.gradient-light-code-clip h2,
+.gradient-light-code-clip h3,
+.gradient-light-code-clip table caption,
+table .gradient-light-code-clip caption,
+.gradient-light-code-clip h4,
+.gradient-light-code-clip h5,
+.gradient-light-code-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -13925,6 +16685,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--light-color), var(--dark-color));
 }
 
+.gradient-light-dark-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--light-color), var(--dark-color));
+  text-shadow: none !important;
+}
+.gradient-light-dark-clip h1,
+.gradient-light-dark-clip h2,
+.gradient-light-dark-clip h3,
+.gradient-light-dark-clip table caption,
+table .gradient-light-dark-clip caption,
+.gradient-light-dark-clip h4,
+.gradient-light-dark-clip h5,
+.gradient-light-dark-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-light-dark {
     background: var(--light-color);
@@ -13964,6 +16747,29 @@ a.link-dark {
 .gradient-dark-primary {
   background: var(--dark-color);
   background: linear-gradient(33deg, var(--dark-color), var(--primary-color));
+}
+
+.gradient-dark-primary-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--dark-color), var(--primary-color));
+  text-shadow: none !important;
+}
+.gradient-dark-primary-clip h1,
+.gradient-dark-primary-clip h2,
+.gradient-dark-primary-clip h3,
+.gradient-dark-primary-clip table caption,
+table .gradient-dark-primary-clip caption,
+.gradient-dark-primary-clip h4,
+.gradient-dark-primary-clip h5,
+.gradient-dark-primary-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -14007,6 +16813,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--dark-color), var(--primary-dark-color));
 }
 
+.gradient-dark-primary-dark-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--dark-color), var(--primary-dark-color));
+  text-shadow: none !important;
+}
+.gradient-dark-primary-dark-clip h1,
+.gradient-dark-primary-dark-clip h2,
+.gradient-dark-primary-dark-clip h3,
+.gradient-dark-primary-dark-clip table caption,
+table .gradient-dark-primary-dark-clip caption,
+.gradient-dark-primary-dark-clip h4,
+.gradient-dark-primary-dark-clip h5,
+.gradient-dark-primary-dark-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-dark-primary-dark {
     background: var(--dark-color);
@@ -14046,6 +16875,29 @@ a.link-dark {
 .gradient-dark-primary-light {
   background: var(--dark-color);
   background: linear-gradient(33deg, var(--dark-color), var(--primary-light-color));
+}
+
+.gradient-dark-primary-light-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--dark-color), var(--primary-light-color));
+  text-shadow: none !important;
+}
+.gradient-dark-primary-light-clip h1,
+.gradient-dark-primary-light-clip h2,
+.gradient-dark-primary-light-clip h3,
+.gradient-dark-primary-light-clip table caption,
+table .gradient-dark-primary-light-clip caption,
+.gradient-dark-primary-light-clip h4,
+.gradient-dark-primary-light-clip h5,
+.gradient-dark-primary-light-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -14089,6 +16941,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--dark-color), var(--secondary-color));
 }
 
+.gradient-dark-secondary-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--dark-color), var(--secondary-color));
+  text-shadow: none !important;
+}
+.gradient-dark-secondary-clip h1,
+.gradient-dark-secondary-clip h2,
+.gradient-dark-secondary-clip h3,
+.gradient-dark-secondary-clip table caption,
+table .gradient-dark-secondary-clip caption,
+.gradient-dark-secondary-clip h4,
+.gradient-dark-secondary-clip h5,
+.gradient-dark-secondary-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-dark-secondary {
     background: var(--dark-color);
@@ -14128,6 +17003,29 @@ a.link-dark {
 .gradient-dark-secondary-dark {
   background: var(--dark-color);
   background: linear-gradient(33deg, var(--dark-color), var(--secondary-dark-color));
+}
+
+.gradient-dark-secondary-dark-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--dark-color), var(--secondary-dark-color));
+  text-shadow: none !important;
+}
+.gradient-dark-secondary-dark-clip h1,
+.gradient-dark-secondary-dark-clip h2,
+.gradient-dark-secondary-dark-clip h3,
+.gradient-dark-secondary-dark-clip table caption,
+table .gradient-dark-secondary-dark-clip caption,
+.gradient-dark-secondary-dark-clip h4,
+.gradient-dark-secondary-dark-clip h5,
+.gradient-dark-secondary-dark-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -14171,6 +17069,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--dark-color), var(--secondary-light-color));
 }
 
+.gradient-dark-secondary-light-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--dark-color), var(--secondary-light-color));
+  text-shadow: none !important;
+}
+.gradient-dark-secondary-light-clip h1,
+.gradient-dark-secondary-light-clip h2,
+.gradient-dark-secondary-light-clip h3,
+.gradient-dark-secondary-light-clip table caption,
+table .gradient-dark-secondary-light-clip caption,
+.gradient-dark-secondary-light-clip h4,
+.gradient-dark-secondary-light-clip h5,
+.gradient-dark-secondary-light-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-dark-secondary-light {
     background: var(--dark-color);
@@ -14210,6 +17131,29 @@ a.link-dark {
 .gradient-dark-success {
   background: var(--dark-color);
   background: linear-gradient(33deg, var(--dark-color), var(--success-color));
+}
+
+.gradient-dark-success-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--dark-color), var(--success-color));
+  text-shadow: none !important;
+}
+.gradient-dark-success-clip h1,
+.gradient-dark-success-clip h2,
+.gradient-dark-success-clip h3,
+.gradient-dark-success-clip table caption,
+table .gradient-dark-success-clip caption,
+.gradient-dark-success-clip h4,
+.gradient-dark-success-clip h5,
+.gradient-dark-success-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -14253,6 +17197,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--dark-color), var(--warning-color));
 }
 
+.gradient-dark-warning-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--dark-color), var(--warning-color));
+  text-shadow: none !important;
+}
+.gradient-dark-warning-clip h1,
+.gradient-dark-warning-clip h2,
+.gradient-dark-warning-clip h3,
+.gradient-dark-warning-clip table caption,
+table .gradient-dark-warning-clip caption,
+.gradient-dark-warning-clip h4,
+.gradient-dark-warning-clip h5,
+.gradient-dark-warning-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-dark-warning {
     background: var(--dark-color);
@@ -14292,6 +17259,29 @@ a.link-dark {
 .gradient-dark-danger {
   background: var(--dark-color);
   background: linear-gradient(33deg, var(--dark-color), var(--danger-color));
+}
+
+.gradient-dark-danger-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--dark-color), var(--danger-color));
+  text-shadow: none !important;
+}
+.gradient-dark-danger-clip h1,
+.gradient-dark-danger-clip h2,
+.gradient-dark-danger-clip h3,
+.gradient-dark-danger-clip table caption,
+table .gradient-dark-danger-clip caption,
+.gradient-dark-danger-clip h4,
+.gradient-dark-danger-clip h5,
+.gradient-dark-danger-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
@@ -14335,6 +17325,29 @@ a.link-dark {
   background: linear-gradient(33deg, var(--dark-color), var(--code-color));
 }
 
+.gradient-dark-code-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--dark-color), var(--code-color));
+  text-shadow: none !important;
+}
+.gradient-dark-code-clip h1,
+.gradient-dark-code-clip h2,
+.gradient-dark-code-clip h3,
+.gradient-dark-code-clip table caption,
+table .gradient-dark-code-clip caption,
+.gradient-dark-code-clip h4,
+.gradient-dark-code-clip h5,
+.gradient-dark-code-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
+}
+
 @media (max-width: 576px) {
   .gradient-xs-dark-code {
     background: var(--dark-color);
@@ -14374,6 +17387,29 @@ a.link-dark {
 .gradient-dark-light {
   background: var(--dark-color);
   background: linear-gradient(33deg, var(--dark-color), var(--light-color));
+}
+
+.gradient-dark-light-clip {
+  display: inline-block;
+  margin: 0 auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: linear-gradient(33deg, var(--dark-color), var(--light-color));
+  text-shadow: none !important;
+}
+.gradient-dark-light-clip h1,
+.gradient-dark-light-clip h2,
+.gradient-dark-light-clip h3,
+.gradient-dark-light-clip table caption,
+table .gradient-dark-light-clip caption,
+.gradient-dark-light-clip h4,
+.gradient-dark-light-clip h5,
+.gradient-dark-light-clip h6 {
+  display: inline-block;
+  text-shadow: none !important;
 }
 
 @media (max-width: 576px) {
