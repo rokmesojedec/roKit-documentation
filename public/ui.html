@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <title>UI Components - ro:Kit</title>
+    <link rel="stylesheet" href="css/roKit.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="typescale-minor-second 
+             typescale-sm-major-second 
+             typescale-xl-minor-third 
+             children-p-x-sm-10 
+             children-p-x-4
+             children-p-y-6">
+    <header class="p-y-0 slide-down-delay-1 fixed-lg full-width z-3 top white shadow-9">
+        <nav class="nav-flex p-sm-3 p-xs-3 p-md-3 p-lg-0 nav-lg typescale-minor-second max-width-center-xxl">
+            <a href="index.html" class="branding relative">ro:Kit<span class="logo">&#129304;</span></a>
+            <ul class=" children-p-sm-1 margin-left-auto">
+                <li><a href="index.html">Home</a>
+                    <ul class="white shadow-lg-9">
+                        <li><a href="index.html#intro">Intro</a></li>
+                        <li><a href="index.html#howto">How to ?</a></li>
+                        <li><a href="index.html#examples">Example Page</a></li>
+                    </ul>
+                </li>
+                <li><a href="animations.html">Animations</a>
+                    <ul class="white shadow-lg-9">
+                        <li><a href="animations.html#slidein">Slide-In</a></li>
+                        <li><a href="animations.html#shadows">Shadows</a></li>
+                    </ul>
+                </li>
+                <li><a href="styling.html">Colors & Styling</a>
+                    <ul class="white shadow-lg-9">
+                        <li><a href="styling.html#color">Colors</a></li>
+                        <li><a href="styling.html#gradients">Gradients</a></li>
+                        <li><a href="styling.html#shadows">Shadows</a></li>
+                    </ul>
+                </li>
+                <li><a href="layout.html">Layout</a>
+                    <ul class="white shadow-lg-9">
+                        <li><a href="layout.html#breakpoints">Breakpoints</a></li>
+                        <li><a href="layout.html#breakpoint-list">Responsive Classes List</a></li>
+                        <li><a href="layout.html#grid">Grid &amp; CSS Box Model</a></li>
+                    </ul>
+                </li>
+                <li><a href="ui.html" class="active">UI Components</a>
+                    <ul class="white shadow-lg-9">
+                        <li><a href="ui.html#buttons">Buttons</a></li>
+                        <li><a href="ui.html#navigation">Navigation</a></li>
+                        <li><a href="ui.html#jumbo">Jumbo</a></li>
+                        <li><a href="ui.html#tooltips">Tooltips</a></li>
+                    </ul>
+                </li>
+                <li><a href="utilities.html">Utilities</a>
+                    <ul class="white shadow-lg-9">
+                        <li><a href="utilities.html#classes">Utility Classes</a></li>
+                    </ul>
+                </li>
+                <li><a href="typography.html">Typography</a>
+                    <ul class="white shadow-lg-9">
+                        <li><a href="typography.html#typefaces">Typefaces</a></li>
+                        <li><a href="typography.html#scales">Type Scales</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="shadow-6 relative z-2 p-y-8" id="buttons">
+        <div class="max-width-center-xxl">
+            <div class="grid grid-col-span-12 grid-md-col-span-6 children-slide-up">
+                <div class="col-md-span-12">
+                    <h1 class="text-shadow-left">ro:Kit Buttons</h1>
+                    <p>Buttons, buttons, buttons! So many buttons to choose from and they're all so satisfying to click
+                        on.</p>
+                    <p>Go ahead click on a few. They don't do anything - they're here just for the show.</p>
+                </div>
+                <div>
+                    <h2>Button Class</h2>
+                    <p>You can turn any HTML element into a button by adding <span class="code-inline">.btn</span>
+                        attribute to it. However, for the sake of semantic code I would recommend adding <span
+                            class="code-inline">.btn</span> only to <span class="code-inline">&#x3C;button&#x3E;</span>
+                        and <span class="code-inline">&#x3C;a&#x3E;</span> tags.
+                    </p>
+                </div>
+                <div>
+                    <h2>Styling</h2>
+                    <p>You can further style your new button by adding <a
+                            href="styling.html#text-colors">text-color</a>, <a
+                            href="styling.html#backgrounds">background</a>, <a
+                            href="styling.html#gradients">gradient</a> and / or button style classes like <span
+                            class="code-inline">.flat .raised .outline</span>
+                    </p>
+                </div>
+                <div>
+                    <h2>Size Modifiers</h2>
+                    <p>The syntax of size class is <span class="code-inline">.btn-[btn-size]</span> with following
+                        button sizes <span class="code-inline">xxs, xs, sm, md, lg, xl, xxl</span> to change the size of
+                        your button. The default size is <span class="code-inline">md</span> and each subsequent and
+                        preceding size is modified by factor of <span class="code-inline">1.25</span>.
+                    </p>
+                </div>
+                <div>
+                    <h2>Responsive Modifiers</h2>
+                    <p>You can add responsive classes to change the size of your button when reaching a certain
+                        breakpoint.</p>
+                    <p>The syntax of responsive class is <span class="code-inline">.btn-[breakpoint]-[btn-size]</span>
+                        with following button sizes <span class="code-inline">xxs, xs, sm, md, lg, xl, xxl</span> and <a
+                            href="layout.html#breakpoints">breakpoints sizes.</a></p>
+                    </p>
+                </div>
+                <div class="col-md-span-12">
+                    <h3>ro:Kit Button Examples</h3>
+                    <div class="grid grid-col-span-12 grid-md-col-span-6">
+                        <div>
+                            <code
+                                class="gradient-success-warning">&#x3C;button class=&#x22;btn raised gradient-secondary-primary btn-lg-xxl&#x22;&#x3E;btn-md-xxl&#x3C;/button&#x3E;</code>
+                        </div>
+                        <div class="text-center">
+                            <div>The button below will increase size to <span class="code-inline">.btn-xxl</span> once
+                                screen size exceeds the lg breakpoint (992px).</div>
+                            <button class="btn raised gradient-secondary-primary btn-lg-xxl">.btn-lg-xxl</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="warning shadow-4 p-3 m-x-4 slide-down-delay-7"><strong>Tip:</strong> Hover over the buttons to see
+                the classes used to
+                create them</p>
+            <table class="responsive-table-md first-col-heading m-t-4 children-slide-down-fast text-center">
+                <caption>Button Styles and Colors</caption>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Default</th>
+                        <th>Primary</th>
+                        <th>Secondary</th>
+                        <th>Warning</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <th scope="row">Flat</th>
+                    <td><span data-tooltip-bottom="class='btn flat'"><button class="btn flat">Deafult</button></span>
+                    </td>
+                    <td><span data-tooltip-bottom="class='btn text-primary flat'"><button
+                                class="btn text-primary flat">Primary</button></span></td>
+                    <td><span data-tooltip-bottom="class='btn text-secondary flat'"><button
+                                class="btn text-secondary flat">Secondary</button></span></td>
+                    <td><span data-tooltip-bottom="class='btn text-warning flat'"><button
+                                class="btn text-warning flat">Warning</button></span></td>
+                </tr>
+                <tr>
+                    <th scope="row">Default</th>
+                    <td><span data-tooltip-bottom="class='btn'"><button class="btn">Deafult</button></span>
+                    </td>
+                    <td><span data-tooltip-bottom="class='btn primary'"><button
+                                class="btn primary">Primary</button></span></td>
+                    <td><span data-tooltip-bottom="class='btn secondary'"><button
+                                class="btn secondary">Secondary</button></span></td>
+                    <td><span data-tooltip-bottom="class='btn warning'"><button
+                                class="btn warning">Warning</button></span></td>
+                </tr>
+                <tr>
+                    <th scope="row">Raised</th>
+                    <td><span data-tooltip-bottom="class='btn raised'"><button
+                                class="btn raised">Deafult</button></span></td>
+                    <td><span data-tooltip-bottom="class='btn raised primary'"><button
+                                class="btn raised primary">Primary</button></span></td>
+                    <td><span data-tooltip-bottom="class='btn raised secondary'"><button
+                                class="btn raised secondary">Secondary</button></span></td>
+                    <td><span data-tooltip-bottom="class='btn raised warning'"><button
+                                class="btn raised warning">Warning</button></span></td>
+                </tr>
+                <tr>
+                    <th scope="row">Outline</th>
+                    <td><span data-tooltip-bottom="class='btn outline text-dark'"><button
+                                class="btn outline text-dark">Deafult</button></span></td>
+                    <td><span data-tooltip-bottom="class='btn outline text-primary'"><button
+                                class="btn outline text-primary">Primary</button></span></td>
+                    <td><span data-tooltip-bottom="class='btn outline text-secondary'"><button
+                                class="btn outline text-secondary">Secondary</button></span></td>
+                    <td><span data-tooltip-bottom="class='btn outline text-warning'"><button
+                                class="btn outline text-warning">Warning</button></span></td>
+                </tr>
+            </table>
+            <table class="responsive-table-md first-col-heading m-t-4 children-slide-down-fast text-center">
+                <caption>Button Styles and Colors</caption>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Danger</th>
+                        <th>Success</th>
+                        <th>Disabled</th>
+                        <th>Link</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <th scope="row">Flat</th>
+                    <td><span data-tooltip-bottom="class='btn text-danger flat'"><button
+                                class="btn text-danger flat">Danger</button></span></td>
+                    <td><span data-tooltip-bottom="class='btn text-success flat'"><button
+                                class="btn text-success flat">Success</button></span></td>
+                    <td><span data-tooltip-bottom="class='btn flat' disabled"><button class="btn flat"
+                                disabled>Disabled</button></span></td>
+                    <td><span data-tooltip-bottom="class='btn flat'"><a class="btn flat">Link</a></span></td>
+                </tr>
+                <tr>
+                    <th scope="row">Default</th>
+                    <td><span data-tooltip-bottom="class='btn danger'"><button class="btn danger">Danger</button></span>
+                    </td>
+                    <td><span data-tooltip-bottom="class='btn success'"><button
+                                class="btn success">Success</button></span></td>
+                    <td><span data-tooltip-bottom="class='btn' disabled"><button class="btn"
+                                disabled>Disabled</button></span></td>
+                    <td><span data-tooltip-bottom="class='btn'"><a class="btn">Link</a></span></td>
+                </tr>
+                <tr>
+                    <th scope="row">Raised</th>
+                    <td><span data-tooltip-bottom="class='btn raised danger'"><button
+                                class="btn raised danger">Danger</button></span></td>
+                    <td><span data-tooltip-bottom="class='btn raised success'"><button
+                                class="btn raised success">Success</button></span></td>
+                    <td><span data-tooltip-bottom="class='btn raised' disabled"><button class="btn raised"
+                                disabled>Disabled</button></span></td>
+                    <td><span data-tooltip-bottom="class='btn raised'"><a class="btn raised">Link</a></span></td>
+                </tr>
+                <tr>
+                    <th scope="row">Outline</th>
+                    <td><span data-tooltip-bottom="class='btn outline text-danger'"><button
+                                class="btn outline text-danger">Danger</button></span></td>
+                    <td><span data-tooltip-bottom="class='btn outline text-success'"><button
+                                class="btn outline text-success">Success</button></span></td>
+                    <td><span data-tooltip-bottom="class='btn outline' disabled"><button class="btn outline "
+                                disabled>Disabled</button></span></td>
+                    <td><span data-tooltip-bottom="class='btn outline'"><a class="btn outline">Link</a></span></td>
+                </tr>
+            </table>
+            <table class="responsive-table-md first-col-heading m-t-4 children-slide-down-fast text-center">
+                <caption>Gradient Background Color Combinations</caption>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Primary</th>
+                        <th>Secondary</th>
+                        <th>Success</th>
+                        <th>Warning</th>
+                        <th>Danger</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <th scope="row">Primary</th>
+                    <td><span data-tooltip-bottom="class='btn primary'"><button
+                                class="btn primary">Button</button></span></td>
+                    <td><span data-tooltip-bottom="class='btn gradient-primary-secondary'"><button
+                                class="btn gradient-primary-secondary">Button</button></span></td>
+                    <td><span data-tooltip-bottom="class='btn gradient-primary-success'"><button
+                                class="btn gradient-primary-success">Button</button></span></td>
+                    <td><span data-tooltip-bottom="class='btn gradient-primary-warning'"><button
+                                class="btn gradient-primary-warning">Button</button></span></td>
+                    <td><span data-tooltip-bottom="class='btn gradient-primary-danger'"><button
+                                class="btn gradient-primary-danger">Button</button></span></td>
+                </tr>
+                <tr>
+                    <th scope="row">Secondary</th>
+                    <td><span data-tooltip-bottom="class='btn gradient-secondary-primary'"><button
+                                class="btn gradient-secondary-primary">Button</button></span></td>
+                    <td><span data-tooltip-bottom="class='btn secondary'"><button
+                                class="btn secondary">Button</button></span></td>
+                    <td><span data-tooltip-bottom="class='btn gradient-secondary-success'"><button
+                                class="btn gradient-secondary-success">Button</button></span></td>
+                    <td><span data-tooltip-bottom="class='btn gradient-secondary-warning'"><button
+                                class="btn gradient-secondary-warning">Button</button></span></td>
+                    <td><span data-tooltip-bottom="class='btn gradient-secondary-danger'"><button
+                                class="btn gradient-secondary-danger">Button</button></span></td>
+                </tr>
+                <tr>
+                    <th scope="row">Success</th>
+                    <td><span data-tooltip-bottom="class='btn gradient-success-primary'"><button
+                                class="btn gradient-success-primary">Button</button></span></td>
+                    <td><span data-tooltip-bottom="class='btn gradient-success-secondary'"><button
+                                class="btn gradient-success-secondary">Button</button></span></td>
+                    <td><span data-tooltip-bottom="class='btn success'"><button
+                                class="btn success">Button</button></span></td>
+                    <td><span data-tooltip-bottom="class='btn gradient-success-warning'"><button
+                                class="btn gradient-success-warning">Button</button></span></td>
+                    <td><span data-tooltip-bottom="class='btn gradient-success-danger'"><button
+                                class="btn gradient-success-danger">Button</button></span></td>
+                </tr>
+                <tr>
+                    <th scope="row">Warning</th>
+                    <td><span data-tooltip-bottom="class='btn gradient-warning-primary'"><button
+                                class="btn gradient-warning-primary">Button</button></span></td>
+                    <td><span data-tooltip-bottom="class='btn gradient-warning-secondary'"><button
+                                class="btn gradient-warning-secondary">Button</button></span></td>
+                    <td><span data-tooltip-bottom="class='btn gradient-warning-success'"><button
+                                class="btn gradient-warning-success">Button</button></span></td>
+                    <td><span data-tooltip-bottom="class='btn warning'"><button
+                                class="btn warning">Button</button></span></td>
+                    <td><span data-tooltip-bottom="class='btn gradient-warning-danger'"><button
+                                class="btn gradient-warning-danger">Button</button></span></td>
+                </tr>
+                <tr>
+                    <th scope="row">Danger</th>
+                    <td><span data-tooltip-bottom="class='btn gradient-danger-primary'"><button
+                                class="btn gradient-danger-primary">Button</button></span></td>
+                    <td><span data-tooltip-bottom="class='btn gradient-danger-secondary'"><button
+                                class="btn gradient-danger-secondary">Button</button></span></td>
+                    <td><span data-tooltip-bottom="class='btn gradient-danger-success'"><button
+                                class="btn gradient-danger-success">Button</button></span></td>
+                    <td><span data-tooltip-bottom="class='btn gradient-danger-warning'"><button
+                                class="btn gradient-danger-warning">Button</button></span></td>
+                    <td><span data-tooltip-bottom="class='btn danger'"><button class="btn danger">Button</button></span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <section id="navigation" class="
+    p-y-8
+    children-p-0
+    shadow-6 
+    relative z-1
+    text-dark
+    primary
+   ">
+        <div class="max-width-center-xxl ">
+            <div class="grid grid-col-span-12 children-slide-down">
+                <h1>ro:Kit Navgiation</h1>
+                <p>
+                    Every site needs navigation - ro:Kit provides it as well with the following features: CSS only drop
+                    downs, responsive collapsible navigation.
+                </p>
+                <h2>Navigation Classes</h2>
+                <p>
+                    Use <span class="code-inline">.nav-&lt;breakpoint&gt;</span> to set a breakpoint below which the
+                    navigation collpases into block or flex if <span class="code-inline">.nav-flex</span> is applied.
+                    When the navigation is collpased, the nested dropdown content will also be displayed.
+                </p>
+                <h2>Navigation Code Template</h2>
+                <p>
+                    <code class="gradient-danger-warning">&lt;nav class=&quot;[?nav-flex|?nav-light|?center] [?nav-&lt;breakpoint-size&gt;]&quot;&gt;
+    &lt;a href=&quot;branding&quot;&gt;My Branding&lt;/a&gt;
+    &lt;!-- site navigation links --&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&quot;&quot; class=&quot;active&quot;&gt;Link 1&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 2&lt;/a&gt;
+            &lt;!-- Nested unordered list will turn into a dropdown - which is displayed as block when navigation collapses --&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href=&quot;&quot;&gt;Sublink 1&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;&quot;&gt;Sublink 2&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 3&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/nav&gt;</code>
+                </p>
+                <h2>Navigation Example</h2>
+                <div class="full-width">
+                    <nav class="nav-md">
+                        <a href="#" class="branding">My Branding</a>
+                        <!-- site navigation links -->
+                        <ul class="#">
+                            <li><a href="#" class="active">Link 1</a></li>
+                            <li><a href="#">Link 2</a>
+                                <!-- Nested unordered list will turn into a dropdown - which is displayed as block when navigation collapses -->
+                                <ul>
+                                    <li><a href="#">Sublink 1</a></li>
+                                    <li><a href="#">Sublink 2</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Link 3</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="jumbo" class="
+                p-y-8
+                children-p-0
+                shadow-6 
+                relative z-1
+                text-dark
+               ">
+        <div class="max-width-center-xxl ">
+            <div class="grid grid-col-span-12">
+                <div class="col-span-12 children-slide-down">
+                    <h1>ro:Kit Jumbo</h1>
+                    <p>
+                        You want to make something stand out on your website? Use a jumbo!
+                        ro:Kit jumbo supports covers, which can be generated with bg-image mixin. Golden
+                        ratio placement of content (38.2%) left and right is supported. You can place an
+                        image element in the jumb and it will be resized to match width, however using
+                        covers will produce better results.
+                        You can use any ro:Kit <span class="code-inline">size, color, gradient,
+                            fontscale</span> and <span class="code-inline">whitespace</span> modifiers on
+                        the jumbo.
+                    </p>
+                    <p>
+                    <h2>Jumbo Template</h2>
+                    <code class="gradient-warning-primary">&lt;div class=&quot;jumbo [?golden-ratio-left|?golden-ratio-right]&quot;&gt;
+    &lt;!-- Optional Cover --&gt;
+    &lt;div class=&quot;cover-class&quot;&gt;&lt;/div&gt;
+    &lt;!-- Optional Overlay --&gt;
+    &lt;div class=&quot;overlay overlay-gradient-[top|left|bottom|right|]&quot;&gt;&lt;/div&gt;
+    &lt;!-- Optional Image --&gt;
+    &lt;!-- Will resize image to fit the jumbo width--&gt;
+    &lt;img src=&quot;img/myimage.png&quot; /&gt;
+    &lt;div class=&quot;content&quot;&gt;
+        &lt;!-- place your content here --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code>
+                    </p>
+                </div>
+                <div class=" children-slide-up">
+                    <h1>How to Use an Image as Jumbo Background</h1>
+                    <p>
+                        Use <span class="code-inline">bg-image($img-url, $class-name)</span> mixin located
+                        in <a href="https://github.com/rokmesojedec/roKit/blob/main/src/scss/components/_jumbo.scss"
+                            class="code-inline" target="_blank">components/_jumbo.scss</a> to creat your
+                        own jumbo class
+                        with an image url.
+                    </p>
+                    <p>Example below was generated with following code <span class="code-inline">@include
+                            jumbo.bg-image("../img/Goriska_brda.jpg", "goriska-brda");</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="jumbo slide-left-delay-2 typescale-minor-third 
+    typescale-md-major-third 
+    typescale-xl-perfect-fourth vh-60">
+        <!-- Optional Overlay -->
+        <div class='goriska-brda'></div>
+        <div class="overlay overlay-gradient-top"></div>
+        <div class="content text-left">
+            <h1 class="m-b-0">Goriška Brda</h1>
+            <p class="text-warning">Source: <a
+                    href="https://commons.wikimedia.org/wiki/File:Goriska_brda.jpg">Wikimedia</a></p>
+            <!-- place your content here -->
+        </div>
+    </div>
+    <section id="tooltips" class="
+               p-y-8
+               children-p-0
+               primary
+               shadow-6 
+               relative z-1
+               text-dark
+               ">
+        <div class="max-width-center-xxl children-slide-up">
+            <h1 class="slide-up-delay-1 p-x-md-10 text-center">ro:Kit Tooltips</h1>
+            <div class="grid grid-col-span-12 grid-xl-col-span-6 p-x-md-10">
+                <div>
+                    <p>Tooltips are fun! Ro:Kit makes it very easy to add a tooltip to your site.</p>
+                    <p>Just add <span class="code-inline">data-tooltip-[top|left|bottom|right]="lorem
+                            ipsum"</span> to
+                        your
+                        HTML tag and the tooltip will appear when hovered over.</p>
+                    <p>If you want to display the tooltip without hovering over the element just add <span
+                            class="code-inline">class="static-tooltip"</span> to the tag with tooltip data
+                        attribute.
+                    </p>
+                </div>
+                <div>
+                    <div class="card align-vertically no-shadow">
+                        <p class="warning shadow-4 p-3"><strong>Caveat:</strong> when adding tooltips to
+                            Ro:Kit buttons
+                            (or
+                            any
+                            elements using
+                            ::before and ::after pseudo selectors) you should warp those elements in an
+                            inline-block
+                            element
+                            and add
+                            the tooltip data attribute to the wrapper.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid 
+                        grid-col-span-12 
+                        grid-lg-col-span-3
+                        p-x-sm-10
+                        p-x-xs-4
+                        p-t-5
+                        p-b-2
+                        children-shadow-6 children-p-2 gap-2 text-center children-slide-up">
+                <div class="white">
+                    <p data-tooltip-left="Hello! Look at me I'm a tooltip." class="static-tooltip">Left
+                        positioned tooltip</p>
+                </div>
+                <div class="white">
+                    <p data-tooltip-top="Hello! Look at me I'm a tooltip." class="static-tooltip">Top
+                        positioned tooltip</p>
+                </div>
+                <div class="white">
+                    <p data-tooltip-bottom="Hello! Look at me I'm a tooltip." class="static-tooltip">Bottom
+                        positioned tooltip</p>
+                </div>
+                <div class="white">
+                    <p data-tooltip-right="Hello! Look at me I'm a tooltip." class="static-tooltip">Right
+                        positioned tooltip</p>
+                </div>
+            </div>
+            <div class="grid 
+                        grid-col-span-12 
+                        grid-lg-col-span-3
+                        p-x-sm-10
+                        p-x-xs-4
+                        p-b-5
+                        p-t-2
+                        children-shadow-6 children-p-2 gap-2 text-center  children-slide-up">
+                <div class="white"><span class="inline-block"
+                        data-tooltip-left="Hello! Look at me I'm a tooltip."><button class="btn text-primary flat">
+                            Hover Left Tooltip</button></span></div>
+                <div class="white"><span class="inline-block"
+                        data-tooltip-top="Hello! Look at me I'm a tooltip."><button class="btn text-secondary flat">
+                            Hover Top Tooltip</button></span></div>
+                <div class="white"><span class="inline-block"
+                        data-tooltip-bottom="Hello! Look at me I'm a tooltip."><button class="btn text-code flat"> Hover
+                            Bottom Tooltip</button></span></div>
+                <div class="white"><span class="inline-block"
+                        data-tooltip-right="Hello! Look at me I'm a tooltip."><button class="btn text-danger flat">
+                            Hover Right Tooltip</button></span></div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="p-y-3 typescale-minor-second code">
+        <div class="max-width-center-xxl">
+            <nav class="p-sm-3 p-xs-3 p-md-3 p-lg-0  typescale-minor-second max-width-center-xxl nav-flex">
+                <ul class=" children-p-sm-1 justify-content-space-between text-warning">
+                    <li><a href="index.html">Home</a>
+                        <ul class="text-light">
+                            <li><a href="index.html#intro">Intro</a></li>
+                            <li><a href="index.html#howto">How to ?</a></li>
+                            <li><a href="index.html#examples">Example Page</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="animations.html">Animations</a>
+                        <ul class="text-light">
+                            <li><a href="animations.html#slidein">Slide-In</a></li>
+                            <li><a href="animations.html#shadows">Shadows</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="styling.html">Colors & Styling</a>
+                        <ul class="text-light">
+                            <li><a href="styling.html#color">Colors</a></li>
+                            <li><a href="styling.html#gradients">Gradients</a></li>
+                            <li><a href="styling.html#shadows">Shadows</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="layout.html">Layout</a>
+                        <ul class="text-light">
+                            <li><a href="layout.html#breakpoints">Breakpoints</a></li>
+                            <li><a href="layout.html#breakpoint-list">Responsive Classes List</a></li>
+                            <li><a href="layout.html#grid">Grid &amp; CSS Box Model</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="ui.html" class="active">UI Components</a>
+                        <ul class="text-light">
+                            <li><a href="ui.html#buttons">Buttons</a></li>
+                            <li><a href="ui.html#navigation">Navigation</a></li>
+                            <li><a href="ui.html#jumbo">Jumbo</a></li>
+                            <li><a href="ui.html#tooltips">Tooltips</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="utilities.html">Utilities</a>
+                        <ul class="text-light">
+                            <li><a href="utilities.html#classes">Utility Classes</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="typography.html">Typography</a>
+                        <ul class="text-light">
+                            <li><a href="typography.html#typefaces">Typefaces</a></li>
+                            <li><a href="typography.html#scales">Type Scales</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            &#169; 2021 <a href="mailto:rok@mesojedec.io" class="link-warning">Rok Mesojedec</a>. All
+            rights reserved.
+        </div>
+    </footer>
+</body>
+
+</html>

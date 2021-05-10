@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <title>Color &amp; Styling - ro:Kit</title>
+    <link rel="stylesheet" href="css/roKit.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="typescale-minor-second 
+             typescale-sm-major-second 
+             typescale-xl-minor-third 
+             children-p-x-sm-10 
+             children-p-x-4
+             children-p-y-6">
+    <header class="p-y-0 slide-down-delay-1 fixed-lg full-width z-3 top white shadow-9">
+        <nav class="p-lg-0 nav-lg typescale-minor-second max-width-center-xxl nav-flex">
+            <a href="index.html" class="branding relative">ro:Kit<span class="logo">&#129304;</span></a>
+            <ul class=" children-p-sm-1 margin-left-auto">
+                <li><a href="index.html">Home</a>
+                    <ul class="white shadow-lg-9">
+                        <li><a href="index.html#intro">Intro</a></li>
+                        <li><a href="index.html#howto">How to ?</a></li>
+                        <li><a href="index.html#examples">Example Page</a></li>
+                    </ul>
+                </li>
+                <li><a href="animations.html">Animations</a>
+                    <ul class="white shadow-lg-9">
+                        <li><a href="animations.html#slidein">Slide-In</a></li>
+                        <li><a href="animations.html#shadows">Shadows</a></li>
+                    </ul>
+                </li>
+                <li><a href="styling.html" class="active">Colors & Styling</a>
+                    <ul class="white shadow-lg-9">
+                        <li><a href="styling.html#color">Colors</a></li>
+                        <li><a href="styling.html#gradients">Gradients</a></li>
+                        <li><a href="styling.html#shadows">Shadows</a></li>
+                    </ul>
+                </li>
+                <li><a href="layout.html">Layout</a>
+                    <ul class="white shadow-lg-9">
+                        <li><a href="layout.html#breakpoints">Breakpoints</a></li>
+                        <li><a href="layout.html#breakpoint-list">Responsive Classes List</a></li>
+                        <li><a href="layout.html#grid">Grid &amp; CSS Box Model</a></li>
+                    </ul>
+                </li>
+                <li><a href="ui.html">UI Components</a>
+                    <ul class="white shadow-lg-9">
+                        <li><a href="ui.html#buttons">Buttons</a></li>
+                        <li><a href="ui.html#navigation">Navigation</a></li>
+                        <li><a href="ui.html#jumbo">Jumbo</a></li>
+                        <li><a href="ui.html#tooltips">Tooltips</a></li>
+                    </ul>
+                </li>
+                <li><a href="utilities.html">Utilities</a>
+                    <ul class="white shadow-lg-9">
+                        <li><a href="utilities.html#classes">Utility Classes</a></li>
+                    </ul>
+                </li>
+                <li><a href="typography.html">Typography</a>
+                    <ul class="white shadow-lg-9">
+                        <li><a href="typography.html#typefaces">Typefaces</a></li>
+                        <li><a href="typography.html#scales">Type Scales</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section id="color" class="p-y-8
+                               children-p-0
+                               shadow-6 
+                               relative z-1
+                               text-dark
+                               ">
+        <div class="max-width-center-xxl">
+            <div class="grid grid-col-span-12 grid-md-col-span-6 children-slide-up">
+                <div class="col-span-12">
+                    <h1>ro:Kit Background Colors</h1>
+                    <p>Default colors are defined and can be customized in <a
+                            href="https://github.com/rokmesojedec/roKit/blob/main/src/scss/_color.scss"
+                            class="code-inline" target="_blank">_color.scss</a>
+                    </p>
+                    <p>Formula for background color classes is <span
+                            class="code-inline">.[color:text][-?breakpoint:text]</span>.
+                    </p>
+                    <p>Breakpoint is optional, and will only apply the background color after the breakpoint is reached.
+                        See
+                        list of <a href="layout.html#breakpoints">breakpoints</a>.</p>
+
+                </div>
+                <div class="col-span-12">
+                    <h2>Background Classes</h2>
+                    <div class="grid 
+                                grid-col-span-12 
+                                grid-sm-col-span-6
+                                grid-md-col-span-4
+                                grid-lg-col-span-3
+                                grid-xl-col-span-2
+                                children-shadow-6 gap-2 children-p-3
+                                color-grid">
+                        <div class="primary-light">.primary-light</div>
+                        <div class="primary">.primary</div>
+                        <div class="primary-dark">.primary-light</div>
+                        <div class="secondary-light">.secondary-light</div>
+                        <div class="secondary">.secondary</div>
+                        <div class="secondary-dark">.secondary-dark</div>
+                        <div class="code">.code</div>
+                        <div class="success">.success</div>
+                        <div class="warning">.warning</div>
+                        <div class="danger">.danger</div>
+                        <div class="light">.light</div>
+                        <div class="dark">.dark</div>
+                    </div>
+                </div>
+                <div class="col-span-12 responsive-table-md sass-table">
+                    <h2>SASS Variables</h2>
+                    <table class="text-left">
+                        <thead>
+                            <tr>
+                                <th>Variable</th>
+                                <th>Description</th>
+                                <th>Default Value</th>
+                                <th>Location</th>
+                            </tr>
+                        </thead>
+                        <tr>
+                            <td data-label="Variable">$muted</td>
+                            <td data-label="Description">Sets color of muted text</td>
+                            <td data-label="Default Value">#747474</td>
+                            <td data-label="Location"><a
+                                    href="https://github.com/rokmesojedec/rokit/blob/main/src/scss/_color.scss"
+                                    target="_blank">_color.scss</a></td>
+                        </tr>
+                        <tr>
+                            <td data-label="Variable">$text-color</td>
+                            <td data-label="Description">Sets main text color</td>
+                            <td data-label="Default Value">#141414</td>
+                            <td data-label="Location"><a
+                                    href="https://github.com/rokmesojedec/rokit/blob/main/src/scss/_color.scss"
+                                    target="_blank">_color.scss</a></td>
+                        </tr>
+                        <tr>
+                            <td data-label="Variable">$primary</td>
+                            <td data-label="Description">Sets primary accent color</td>
+                            <td data-label="Default Value">#70d6ff</td>
+                            <td data-label="Location"><a
+                                    href="https://github.com/rokmesojedec/rokit/blob/main/src/scss/_color.scss"
+                                    target="_blank">_color.scss</a></td>
+                        </tr>
+                        <tr>
+                            <td data-label="Variable">$secondary</td>
+                            <td data-label="Description">Sets secondary accent color</td>
+                            <td data-label="Default Value">#ff70a6</td>
+                            <td data-label="Location"><a
+                                    href="https://github.com/rokmesojedec/rokit/blob/main/src/scss/_color.scss"
+                                    target="_blank">_color.scss</a></td>
+                        </tr>
+
+                        <tr>
+                            <td data-label="Variable">$success</td>
+                            <td data-label="Description">Sets success color</td>
+                            <td data-label="Default Value"></td>
+                            <td data-label="Location"><a
+                                    href="https://github.com/rokmesojedec/rokit/blob/main/src/scss/_color.scss"
+                                    target="_blank">_color.scss</a></td>
+                        </tr>
+                        <tr>
+                            <td data-label="Variable">$warning</td>
+                            <td data-label="Description">Sets warning color</td>
+                            <td data-label="Default Value"></td>
+                            <td data-label="Location"><a
+                                    href="https://github.com/rokmesojedec/rokit/blob/main/src/scss/_color.scss"
+                                    target="_blank">_color.scss</a></td>
+                        </tr>
+                        <tr>
+                            <td data-label="Variable">$danger</td>
+                            <td data-label="Description">Sets danger color</td>
+                            <td data-label="Default Value"></td>
+                            <td data-label="Location"><a
+                                    href="https://github.com/rokmesojedec/rokit/blob/main/src/scss/_color.scss"
+                                    target="_blank">_color.scss</a></td>
+                        </tr>
+                        <tr>
+                            <td data-label="Variable">$code-color</td>
+                            <td data-label="Description">Sets code color</td>
+                            <td data-label="Default Value"></td>
+                            <td data-label="Location"><a
+                                    href="https://github.com/rokmesojedec/rokit/blob/main/src/scss/_color.scss"
+                                    target="_blank">_color.scss</a></td>
+                        </tr>
+                        <tr>
+                            <td data-label="Variable">$overlay-color</td>
+                            <td data-label="Description">Sets jumbo overlay color</td>
+                            <td data-label="Default Value"></td>
+                            <td data-label="Location"><a
+                                    href="https://github.com/rokmesojedec/rokit/blob/main/src/scss/_color.scss"
+                                    target="_blank">_color.scss</a></td>
+                        </tr>
+                        <tr>
+                            <td data-label="Variable">$text-light</td>
+                            <td data-label="Description">Sets light text color</td>
+                            <td data-label="Default Value"></td>
+                            <td data-label="Location"><a
+                                    href="https://github.com/rokmesojedec/rokit/blob/main/src/scss/_color.scss"
+                                    target="_blank">_color.scss</a></td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="
+        p-y-8
+        children-p-0
+        shadow-6 
+        relative z-1
+        text-dark
+        slide-down-delay-1" id="textcolors">
+        <div class="max-width-center-xxl">
+
+            <h1>ro:Kit Text Colors</h1>
+            <p>Formula for text color classes is <span class="code-inline">.text[-?breakpoint:text]-[color:text]</span>.
+            </p>
+            <p>Breakpoint is optional, and will only apply the text color after the breakpoint is reached. See list of
+                <a href="layout.html#breakpoints">breakpoints</a>.
+            </p>
+            <h2>Text Color Classes</h2>
+            <div class="grid 
+            grid-col-span-12 
+            grid-sm-col-span-6
+            grid-md-col-span-4
+            grid-lg-col-span-3
+            grid-xl-col-span-2
+            children-slide-down children-shadow-6 gap-2 children-p-3
+            color-grid">
+                <div class="text-primary-light">.primary-light</div>
+                <div class="text-primary">.primary</div>
+                <div class="text-primary-dark">.primary-light</div>
+                <div class="text-secondary-light">.secondary</div>
+                <div class="text-secondary">.secondary</div>
+                <div class="text-secondary-dark">.secondary</div>
+                <div class="text-code">.code</div>
+                <div class="text-success">.success</div>
+                <div class="text-warning primary">.warning</div>
+                <div class="text-danger">.danger</div>
+                <div class="text-light dark">.light</div>
+                <div class="text-dark">.dark</div>
+            </div>
+        </div>
+    </section>
+    <section id="gradients" class="
+        p-y-8
+        children-p-0
+        shadow-6 
+        relative z-1
+        text-dark
+ 
+        ">
+        <div class="max-width-center-xxl children-slide-up">
+
+            <h1>ro:Kit Gradients</h1>
+            <p>ro:Kit generates gradients from the defined colors. Gradients can be applied to elements as backgrounds
+                with following classes</p>
+            <p>Default angle of gradients is 30 degrees and can be modifeid in <a
+                    href="https://github.com/rokmesojedec/roKit/blob/main/src/scss/_variables.scss" target="_blank"
+                    class="code-inline">_variables.scss</a></p>
+            <p>Formula for gradient classes is <span
+                    class="code-inline">.gradient[-?breakpoint:text]-[color1:text]-[color2:text]</span>.
+            </p>
+            <p>Breakpoint is optional, and will only apply the gradient after the breakpoint is reached. See list of <a
+                    href="layout.html#breakpoints">breakpoints</a>.</p>
+            <h2>Gradient Classes</h2>
+            <div class="grid 
+            grid-col-span-12 
+            grid-sm-col-span-6
+            grid-md-col-span-4
+            grid-lg-col-span-3
+            grid-xl-col-span-2
+            children-shadow-6 gap-2 children-p-3
+            color-grid gradients">
+                <div class="gradient-primary-light-primary">.gradient-primary-light-primary</div>
+                <div class="gradient-primary-light-primary-dark">.gradient-primary-light-primary-dark</div>
+                <div class="gradient-primary-light-secondary-light">.gradient-primary-light-secondary-light</div>
+                <div class="gradient-primary-light-secondary">.gradient-primary-light-secondary</div>
+                <div class="gradient-primary-light-secondary-dark">.gradient-primary-light-secondary-dark</div>
+                <div class="gradient-primary-light-code">.gradient-primary-light-code</div>
+                <div class="gradient-primary-light-success">.gradient-primary-light-success</div>
+                <div class="gradient-primary-light-warning">.gradient-primary-light-warning</div>
+                <div class="gradient-primary-light-danger">.gradient-primary-light-danger</div>
+                <div class="gradient-primary-light-light">.gradient-primary-light-light</div>
+                <div class="gradient-primary-light-dark">.gradient-primary-light-dark</div>
+                <div class="gradient-primary-primary-light">.gradient-primary-primary-light</div>
+                <div class="gradient-primary-primary-dark">.gradient-primary-primary-dark</div>
+                <div class="gradient-primary-secondary-light">.gradient-primary-secondary-light</div>
+                <div class="gradient-primary-secondary">.gradient-primary-secondary</div>
+                <div class="gradient-primary-secondary-dark">.gradient-primary-secondary-dark</div>
+                <div class="gradient-primary-code">.gradient-primary-code</div>
+                <div class="gradient-primary-success">.gradient-primary-success</div>
+                <div class="gradient-primary-warning">.gradient-primary-warning</div>
+                <div class="gradient-primary-danger">.gradient-primary-danger</div>
+                <div class="gradient-primary-light">.gradient-primary-light</div>
+                <div class="gradient-primary-dark">.gradient-primary-dark</div>
+                <div class="gradient-primary-dark-primary-light">.gradient-primary-dark-primary-light</div>
+                <div class="gradient-primary-dark-primary">.gradient-primary-dark-primary</div>
+                <div class="gradient-primary-dark-secondary-light">.gradient-primary-dark-secondary-light</div>
+                <div class="gradient-primary-dark-secondary">.gradient-primary-dark-secondary</div>
+                <div class="gradient-primary-dark-secondary-dark">.gradient-primary-dark-secondary-dark</div>
+                <div class="gradient-primary-dark-code">.gradient-primary-dark-code</div>
+                <div class="gradient-primary-dark-success">.gradient-primary-dark-success</div>
+                <div class="gradient-primary-dark-warning">.gradient-primary-dark-warning</div>
+                <div class="gradient-primary-dark-danger">.gradient-primary-dark-danger</div>
+                <div class="gradient-primary-dark-light">.gradient-primary-dark-light</div>
+                <div class="gradient-primary-dark-dark">.gradient-primary-dark-dark</div>
+                <div class="gradient-secondary-light-primary-light">.gradient-secondary-light-primary-light</div>
+                <div class="gradient-secondary-light-primary">.gradient-secondary-light-primary</div>
+                <div class="gradient-secondary-light-primary-dark">.gradient-secondary-light-primary-dark</div>
+                <div class="gradient-secondary-light-secondary">.gradient-secondary-light-secondary</div>
+                <div class="gradient-secondary-light-secondary-dark">.gradient-secondary-light-secondary-dark</div>
+                <div class="gradient-secondary-light-code">.gradient-secondary-light-code</div>
+                <div class="gradient-secondary-light-success">.gradient-secondary-light-success</div>
+                <div class="gradient-secondary-light-warning">.gradient-secondary-light-warning</div>
+                <div class="gradient-secondary-light-danger">.gradient-secondary-light-danger</div>
+                <div class="gradient-secondary-light-light">.gradient-secondary-light-light</div>
+                <div class="gradient-secondary-light-dark">.gradient-secondary-light-dark</div>
+                <div class="gradient-secondary-primary-light">.gradient-secondary-primary-light</div>
+                <div class="gradient-secondary-primary">.gradient-secondary-primary</div>
+                <div class="gradient-secondary-primary-dark">.gradient-secondary-primary-dark</div>
+                <div class="gradient-secondary-secondary-light">.gradient-secondary-secondary-light</div>
+                <div class="gradient-secondary-secondary-dark">.gradient-secondary-secondary-dark</div>
+                <div class="gradient-secondary-code">.gradient-secondary-code</div>
+                <div class="gradient-secondary-success">.gradient-secondary-success</div>
+                <div class="gradient-secondary-warning">.gradient-secondary-warning</div>
+                <div class="gradient-secondary-danger">.gradient-secondary-danger</div>
+                <div class="gradient-secondary-light">.gradient-secondary-light</div>
+                <div class="gradient-secondary-dark">.gradient-secondary-dark</div>
+                <div class="gradient-secondary-dark-primary-light">.gradient-secondary-dark-primary-light</div>
+                <div class="gradient-secondary-dark-primary">.gradient-secondary-dark-primary</div>
+                <div class="gradient-secondary-dark-primary-dark">.gradient-secondary-dark-primary-dark</div>
+                <div class="gradient-secondary-dark-secondary-light">.gradient-secondary-dark-secondary-light</div>
+                <div class="gradient-secondary-dark-secondary">.gradient-secondary-dark-secondary</div>
+                <div class="gradient-secondary-dark-code">.gradient-secondary-dark-code</div>
+                <div class="gradient-secondary-dark-success">.gradient-secondary-dark-success</div>
+                <div class="gradient-secondary-dark-warning">.gradient-secondary-dark-warning</div>
+                <div class="gradient-secondary-dark-danger">.gradient-secondary-dark-danger</div>
+                <div class="gradient-secondary-dark-light">.gradient-secondary-dark-light</div>
+                <div class="gradient-secondary-dark-dark">.gradient-secondary-dark-dark</div>
+                <div class="gradient-code-primary-light">.gradient-code-primary-light</div>
+                <div class="gradient-code-primary">.gradient-code-primary</div>
+                <div class="gradient-code-primary-dark">.gradient-code-primary-dark</div>
+                <div class="gradient-code-secondary-light">.gradient-code-secondary-light</div>
+                <div class="gradient-code-secondary">.gradient-code-secondary</div>
+                <div class="gradient-code-secondary-dark">.gradient-code-secondary-dark</div>
+                <div class="gradient-code-success">.gradient-code-success</div>
+                <div class="gradient-code-warning">.gradient-code-warning</div>
+                <div class="gradient-code-danger">.gradient-code-danger</div>
+                <div class="gradient-code-light">.gradient-code-light</div>
+                <div class="gradient-code-dark">.gradient-code-dark</div>
+                <div class="gradient-success-primary-light">.gradient-success-primary-light</div>
+                <div class="gradient-success-primary">.gradient-success-primary</div>
+                <div class="gradient-success-primary-dark">.gradient-success-primary-dark</div>
+                <div class="gradient-success-secondary-light">.gradient-success-secondary-light</div>
+                <div class="gradient-success-secondary">.gradient-success-secondary</div>
+                <div class="gradient-success-secondary-dark">.gradient-success-secondary-dark</div>
+                <div class="gradient-success-code">.gradient-success-code</div>
+                <div class="gradient-success-warning">.gradient-success-warning</div>
+                <div class="gradient-success-danger">.gradient-success-danger</div>
+                <div class="gradient-success-light">.gradient-success-light</div>
+                <div class="gradient-success-dark">.gradient-success-dark</div>
+                <div class="gradient-warning-primary-light">.gradient-warning-primary-light</div>
+                <div class="gradient-warning-primary">.gradient-warning-primary</div>
+                <div class="gradient-warning-primary-dark">.gradient-warning-primary-dark</div>
+                <div class="gradient-warning-secondary-light">.gradient-warning-secondary-light</div>
+                <div class="gradient-warning-secondary">.gradient-warning-secondary</div>
+                <div class="gradient-warning-secondary-dark">.gradient-warning-secondary-dark</div>
+                <div class="gradient-warning-code">.gradient-warning-code</div>
+                <div class="gradient-warning-success">.gradient-warning-success</div>
+                <div class="gradient-warning-danger">.gradient-warning-danger</div>
+                <div class="gradient-warning-light">.gradient-warning-light</div>
+                <div class="gradient-warning-dark">.gradient-warning-dark</div>
+                <div class="gradient-danger-primary-light">.gradient-danger-primary-light</div>
+                <div class="gradient-danger-primary">.gradient-danger-primary</div>
+                <div class="gradient-danger-primary-dark">.gradient-danger-primary-dark</div>
+                <div class="gradient-danger-secondary-light">.gradient-danger-secondary-light</div>
+                <div class="gradient-danger-secondary">.gradient-danger-secondary</div>
+                <div class="gradient-danger-secondary-dark">.gradient-danger-secondary-dark</div>
+                <div class="gradient-danger-code">.gradient-danger-code</div>
+                <div class="gradient-danger-success">.gradient-danger-success</div>
+                <div class="gradient-danger-warning">.gradient-danger-warning</div>
+                <div class="gradient-danger-light">.gradient-danger-light</div>
+                <div class="gradient-danger-dark">.gradient-danger-dark</div>
+                <div class="gradient-light-primary-light">.gradient-light-primary-light</div>
+                <div class="gradient-light-primary">.gradient-light-primary</div>
+                <div class="gradient-light-primary-dark">.gradient-light-primary-dark</div>
+                <div class="gradient-light-secondary-light">.gradient-light-secondary-light</div>
+                <div class="gradient-light-secondary">.gradient-light-secondary</div>
+                <div class="gradient-light-secondary-dark">.gradient-light-secondary-dark</div>
+                <div class="gradient-light-code">.gradient-light-code</div>
+                <div class="gradient-light-success">.gradient-light-success</div>
+                <div class="gradient-light-warning">.gradient-light-warning</div>
+                <div class="gradient-light-danger">.gradient-light-danger</div>
+                <div class="gradient-light-dark">.gradient-light-dark</div>
+                <div class="gradient-dark-primary-light">.gradient-dark-primary-light</div>
+                <div class="gradient-dark-primary">.gradient-dark-primary</div>
+                <div class="gradient-dark-primary-dark">.gradient-dark-primary-dark</div>
+                <div class="gradient-dark-secondary-light">.gradient-dark-secondary-light</div>
+                <div class="gradient-dark-secondary">.gradient-dark-secondary</div>
+                <div class="gradient-dark-secondary-dark">.gradient-dark-secondary-dark</div>
+                <div class="gradient-dark-code">.gradient-dark-code</div>
+                <div class="gradient-dark-success">.gradient-dark-success</div>
+                <div class="gradient-dark-warning">.gradient-dark-warning</div>
+                <div class="gradient-dark-danger">.gradient-dark-danger</div>
+                <div class="gradient-dark-light">.gradient-dark-light</div>
+            </div>
+        </div>
+    </section>
+    <section id="shadows" class="
+    p-y-8
+    children-p-0
+    shadow-6 
+    relative z-1
+    text-dark
+   ">
+        <div class="max-width-center-xxl ">
+            <div class="grid grid-col-span-12 grid-md-col-span-6 children-slide-up">
+                <div>
+                    <h1>Box Shadows</h1>
+                    <p>ro:Kit provides 10 levels of box-shadow and several text-shadow classes out of the box. </p>
+                    <p>Formula for box shadow classes is <span
+                            class="code-inline">.shadow[-?breakpoint:text]-[level:number = 1 through
+                            10]</span>.
+                    </p>
+                    <p>Breakpoint is optional, and will only apply the box shadow after the breakpoint is reached. See
+                        list of
+                        <a href="layout.html#breakpoints">breakpoints</a>.
+                    </p>
+                    <p>Shadows use a scale for sizing, similar to type scaling. The default scale is <strong>Augmented
+                            Fourth
+                            (1.414)</strong>.</p>
+                    <p> Shadow scale can be adjusted in <a
+                            href="https://github.com/rokmesojedec/roKit/blob/main/src/scss/_variables.scss"
+                            target="_blank" class="code-inline">_variables.scss</a></strong>.
+                    </p>
+                    <p>Further shadow customizations can be done in <a
+                            href="https://github.com/rokmesojedec/roKit/blob/main/src/scss/components/_shadows.scss"
+                            target="_blank" class="code-inline">components/_shadows.scss</a>.</p>
+
+                </div>
+                <div>
+                    <h1>Shadow Classes</h1>
+                    <ul>
+                        <li><span class="code-inline">.shadow-[level:number = 1 through 10]</span> - adds box-shadow on
+                            block
+                            element.
+                        </li>
+                        <li><span class="code-inline">.shadow-[breakpoint:text]-[level:number = 1 through 10]</span> -
+                            adds box-shadow on
+                            block elemen after passing breakpoint.
+                        </li>
+                        <li><span class="code-inline">.children-shadow-[level:number = 1 through 10]</span> - adds
+                            box-shadow on
+                            all child elements of element.
+                        </li>
+                        <li><span class="code-inline">.children-[breakpoint:text]-shadow-[level:number = 1 through
+                                10]</span> - adds box-shadow on
+                            all child elements of element after passing breakpoint.
+                        </li>
+                        <li><span class="code-inline">[type:text = box-shadow|text-shadow]-[position:text =
+                                top-left|top|top-right|right|bottom-right|bottom|bottom-left]</span> - adds text-shadow
+                            or box-shadow with specified orientation.
+                            <br />Example: <span class="code-inline">.text-shadow-top-left</span>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="col-span-12">
+                    <h2>Shadow Examples</h2>
+                    <div class="grid 
+                    grid-col-span-2 
+                    grid-xs-col-span-12 
+                    grid-sm-col-span-6 
+                    grid-md-col-span-4 
+                    grid-lg-col-span-3
+                    gap-2 
+                    children-slide-up
+                    color-grid">
+                        <div class="card light shadow-1">
+                            .shadow-1
+                        </div>
+                        <div class="card light shadow-2">
+                            .shadow-2
+                        </div>
+                        <div class="card light shadow-3">
+                            .shadow-3
+                        </div>
+                        <div class="card light shadow-4">
+                            .shadow-4
+                        </div>
+                        <div class="card light shadow-5">
+                            .shadow-5
+                        </div>
+                        <div class="card light shadow-6">
+                            .shadow-6
+                        </div>
+                        <div class="card light shadow-7">
+                            .shadow-7
+                        </div>
+                        <div class="card light shadow-8">
+                            .shadow-8
+                        </div>
+                        <div class="card light shadow-9">
+                            .shadow-9
+                        </div>
+                        <div class="card light shadow-10">
+                            .shadow-10
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-12 responsive-table-md sass-table">
+                    <h2>SASS Variables</h2>
+                    <table class="text-left">
+                        <thead>
+                            <tr>
+                                <th>Variable</th>
+                                <th>Description</th>
+                                <th>Default Value</th>
+                                <th>Location</th>
+                            </tr>
+                        </thead>
+                        <tr>
+                            <td data-label="Variable">$shadow-scale</td>
+                            <td data-label="Description">Sets shadow scaling factor</td>
+                            <td data-label="Default Value">1.414</td>
+                            <td data-label="Location"><a
+                                    href="https://github.com/rokmesojedec/rokit/blob/main/src/scss/_variables.scss"
+                                    target="_blank">_variables.scss</a></td>
+                        </tr>
+                        <tr>
+                            <td data-label="Variable">$base-size</td>
+                            <td data-label="Description">Sets base offset of shadows</td>
+                            <td data-label="Default Value">1px</td>
+                            <td data-label="Location"><a
+                                    href="https://github.com/rokmesojedec/rokit/blob/main/src/scss/_variables.scss"
+                                    target="_blank">_variables.scss</a></td>
+                        </tr>
+                        <tr>
+                            <td data-label="Variable">$base-strength</td>
+                            <td data-label="Description">Sets base shadow strength (opacity)</td>
+                            <td data-label="Default Value">0.1</td>
+                            <td data-label="Location"><a
+                                    href="https://github.com/rokmesojedec/rokit/blob/main/src/scss/_variables.scss"
+                                    target="_blank">_variables.scss</a></td>
+                        </tr>
+                        <tr>
+                            <td data-label="Variable">$base-blur</td>
+                            <td data-label="Description">Sets base blur multiplier</td>
+                            <td data-label="Default Value">1.5</td>
+                            <td data-label="Location"><a
+                                    href="https://github.com/rokmesojedec/rokit/blob/main/src/scss/_variables.scss"
+                                    target="_blank">_variables.scss</a></td>
+                        </tr>
+                        <tr>
+                            <td data-label="Variable">$shadow-levels</td>
+                            <td data-label="Description">Sets number of shadow levels generated by ro:Kit</td>
+                            <td data-label="Default Value">10</td>
+                            <td data-label="Location"><a
+                                    href="https://github.com/rokmesojedec/rokit/blob/main/src/scss/_variables.scss"
+                                    target="_blank">_variables.scss</a></td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="p-y-3 typescale-minor-second code">
+        <div class="max-width-center-xxl">
+            <nav class="p-sm-3 p-xs-3 p-md-3 p-lg-0  typescale-minor-second max-width-center-xxl nav-flex">
+                <ul class=" children-p-sm-1 justify-content-space-between text-warning">
+                    <li><a href="index.html">Home</a>
+                        <ul class="text-light">
+                            <li><a href="index.html#intro">Intro</a></li>
+                            <li><a href="index.html#howto">How to ?</a></li>
+                            <li><a href="index.html#examples">Example Page</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="animations.html">Animations</a>
+                        <ul class="text-light">
+                            <li><a href="animations.html#slidein">Slide-In</a></li>
+                            <li><a href="animations.html#shadows">Shadows</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="styling.html" class="active">Colors & Styling</a>
+                        <ul class="text-light">
+                            <li><a href="styling.html#color">Colors</a></li>
+                            <li><a href="styling.html#gradients">Gradients</a></li>
+                            <li><a href="styling.html#shadows">Shadows</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="layout.html">Layout</a>
+                        <ul class="text-light">
+                            <li><a href="layout.html#breakpoints">Breakpoints</a></li>
+                            <li><a href="layout.html#grid">Grid &amp; CSS Box Model</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="ui.html">UI Components</a>
+                        <ul class="text-light">
+                            <li><a href="ui.html#buttons">Buttons</a></li>
+                            <li><a href="ui.html#navigation">Navigation</a></li>
+                            <li><a href="ui.html#jumbo">Jumbo</a></li>
+                            <li><a href="ui.html#tooltips">Tooltips</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="utilities.html">Utilities</a>
+                        <ul class="text-light">
+                            <li><a href="utilities.html#classes">Layout, Padding &amp; Margin Classes</a></li>
+                            <li><a href="utilities.html#visibility">Position &amp; Visibility Classes</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="typography.html">Typography</a>
+                        <ul class="text-light">
+                            <li><a href="typography.html#typefaces">Typefaces</a></li>
+                            <li><a href="typography.html#scales">Type Scales</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            &#169; 2021 <a href="mailto:rok@mesojedec.io" class="link-warning">Rok Mesojedec</a>. All
+            rights reserved.
+        </div>
+    </footer>
+</body>
+
+</html>

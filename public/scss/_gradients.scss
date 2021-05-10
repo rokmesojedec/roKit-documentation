@@ -1,0 +1,37 @@
+@use "color";
+
+@each $color, $text in color.$bgcolors-textcolor-map {
+    @each $color2, $text in color.$bgcolors-textcolor-map {
+        @if $color != $color2 {
+            .gradient-#{$color}-#{$color2} {
+                background: var(--#{$color}-color);
+                background: linear-gradient($default-gradient-rotation, var(--#{$color}-color), var(--#{$color2}-color));
+            }
+            @include for-each-breakpoint() using ($breakpoint) {
+                .gradient-#{$breakpoint}-#{$color}-#{$color2} {
+                    background: var(--#{$color}-color);
+                    background: linear-gradient($default-gradient-rotation, var(--#{$color}-color), var(--#{$color2}-color));
+                }
+            }
+        }
+    }
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-size: 100% 100%;
+        background-position: 0% 50%;
+    }
+    50% {
+        background-size: 150% 150%;
+        background-position: 0%, -100%;
+    }
+    100% {
+        background-size: 100% 100%;
+        background-position: 0% 0%;
+    }
+}
+
+.animate-gradient {
+    animation: gradient-animation 3.5s ease;
+}

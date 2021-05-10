@@ -1,0 +1,148 @@
+@use "breakpoints";
+
+%navAnchorOverride {
+    border: none;
+    &:hover,
+    a:hover {
+        text-decoration: underline;
+        box-shadow: none !important;
+    }
+
+    color: inherit !important;
+    text: {
+        decoration: none;
+    }
+
+    &::after,
+    &:hover::after,
+    &:active::after {
+        display: none;
+    }
+}
+
+.branding {
+    font-weight: bold;
+    font-size: 200%;
+    display: inline-block;
+    padding: {top: var(--unit); bottom: var(--unit);}
+    margin: {top: var(--unit); bottom: var(--unit);}
+    
+    @extend %navAnchorOverride;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+nav {
+    display: block;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    &.nav-flex > ul{
+        & > li { 
+            width: 10rem;
+            padding: 0;
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-bottom: calc(3 * var(--unit));
+            margin-right: var(--unit);
+            ul {
+                li {
+                    font-weight: initial;
+                    text-transform: initial;
+                }
+            }
+        }
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding-left: 0;
+        padding-bottom: 0;
+        ul, ul li {
+            padding-left: 0;
+            padding-bottom: 0;
+        }
+    }
+    &.center ul {
+        justify-content: center;
+    }
+    &.nav-light {
+        ul li a {
+            color: var(--light-color);
+        }
+    }
+    a.active {
+        font-weight: bold;
+        &:before {
+            content: "\2013" + " ";
+        }
+    }
+    ul {
+        display: block;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        &.center {
+            justify-content: center;
+        }
+        li {
+            display: block;
+            align-items: center;
+            position: relative;
+            padding: var(--unit);
+            font: {
+                family: var(--heading-font);
+            }
+            a {
+                @extend %navAnchorOverride;
+            }
+            ul {
+                display: block;
+                position: static;
+                background: unset;
+                li a {
+                    color: unset !important;
+                }
+            }
+        }
+    }
+    @include for-each-breakpoint() using ($breakpoint) {
+        &.nav-#{$breakpoint} {
+            display: flex;
+            & > ul {
+                display: flex;
+                flex-wrap: initial;
+                li {
+                    a{
+                        white-space: nowrap;
+                    }
+                    margin: 0;
+                    padding: var(--unit);
+                    width: initial;
+                    font-weight: initial;
+                    text-transform: initial;
+                    &:first-child {
+                        padding-left: var(--unit);
+                    }
+                    &:hover a ~ ul,
+                    &:hover ~ ul:hover {
+                        display: block;
+                    }
+                    & a ~ ul {
+                        border-radius: 0 0 5px 5px;
+                        bottom: 0;
+                        left: 50%;
+                        position: absolute;
+                        display: none;
+                        transform: translate(-50%, 100%);
+                        animation: fade-in 0.3s;
+                        li {
+                            padding: calc(var(--unit) / 2) var(--unit);
+                            display: list-item;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

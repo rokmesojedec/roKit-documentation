@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <title>Layout - ro:Kit</title>
+    <link rel="stylesheet" href="css/roKit.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="typescale-minor-second 
+             typescale-sm-major-second 
+             typescale-xl-minor-third 
+             children-p-x-sm-10 
+             children-p-x-4
+             children-p-y-6">
+    <header class="p-y-0 slide-down-delay-1 fixed-lg full-width z-3 top white shadow-9">
+        <nav class="p-lg-0 nav-lg typescale-minor-second max-width-center-xxl nav-flex">
+            <a href="index.html" class="branding relative">ro:Kit<span class="logo">&#129304;</span></a>
+            <ul class=" children-p-sm-1 margin-left-auto">
+                <li><a href="index.html">Home</a>
+                    <ul class="white shadow-lg-9">
+                        <li><a href="index.html#intro">Intro</a></li>
+                        <li><a href="index.html#howto">How to ?</a></li>
+                        <li><a href="index.html#examples">Example Page</a></li>
+                    </ul>
+                </li>
+                <li><a href="animations.html" class="active">Animations</a>
+                    <ul class="white shadow-lg-9">
+                        <li><a href="animations.html#slidein">Slide-In</a></li>
+                        <li><a href="animations.html#shadows">Shadows</a></li>
+                    </ul>
+                </li>
+                <li><a href="styling.html">Colors & Styling</a>
+                    <ul class="white shadow-lg-9">
+                        <li><a href="styling.html#color">Colors</a></li>
+                        <li><a href="styling.html#gradients">Gradients</a></li>
+                        <li><a href="styling.html#shadows">Shadows</a></li>
+                    </ul>
+                </li>
+                <li><a href="layout.html">Layout</a>
+                    <ul class="white shadow-lg-9">
+                        <li><a href="layout.html#breakpoints">Breakpoints</a></li>
+                        <li><a href="layout.html#breakpoint-list">Responsive Classes List</a></li>
+                        <li><a href="layout.html#grid">Grid &amp; CSS Box Model</a></li>
+                    </ul>
+                </li>
+                <li><a href="ui.html">UI Components</a>
+                    <ul class="white shadow-lg-9">
+                        <li><a href="ui.html#buttons">Buttons</a></li>
+                        <li><a href="ui.html#navigation">Navigation</a></li>
+                        <li><a href="ui.html#jumbo">Jumbo</a></li>
+                        <li><a href="ui.html#tooltips">Tooltips</a></li>
+                    </ul>
+                </li>
+                <li><a href="utilities.html">Utilities</a>
+                    <ul class="white shadow-lg-9">
+                        <li><a href="utilities.html#classes">Utility Classes</a></li>
+                    </ul>
+                </li>
+                <li><a href="typography.html">Typography</a>
+                    <ul class="white shadow-lg-9">
+                        <li><a href="typography.html#scales">Font Scales</a></li>
+                        <li><a href="typography.html#typefaces">Typefaces</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section id="slidein" class="
+    p-y-8
+    children-p-0
+    shadow-6 
+    relative z-1
+    text-dark
+   ">
+        <div class="max-width-center-xxl">
+            <div class="grid grid-col-span-12 grid-md-col-span-6 children-slide-up">
+                <div>
+                    <h2>ro:Kit Slide-In Animations</h2>
+                    <p>ro:Kit generates several slide-in animations out-of-the-box. These animations can be used to
+                        progressively reveal elements on first page load.</p>
+                    <p>Each animation class has three speed variants <span class="code-inline">slow, fast and
+                            regular</span>. Moreover, animations can be applied in sequence to child elements by simply
+                        adding a single class (example <span class="code-inline">.children-slide-down</span>) to a
+                        parent element.</p>
+                </div>
+                <div>
+                    <h2>Slide-In Classes</h2>
+                    <ul>
+                        <li><span class="code-inline">.slide-[direction:text = up | down | left | right]-[?speed:text =
+                                fast | slow]-delay-[delay:number = 1 through 12]</span> - slides and fades in an element
+                            with
+                            [delay]. Optional speed modifier may be added and omitting the modifier will run animation
+                            at
+                            default speed. An element with delay-1 will be shown first, delay-2 will fade-in right after
+                            delay-1. Delay times are absolute. Example: <span
+                                class="code-inline">.slide-up-delay-1</span></span></li>
+                        <li><span class="code-inline">.children-slide-[direction:text = up | down | left |
+                                right]-[?speed:text = fast | slow]</span> - slides and fades in up to 12 child elements
+                            of an element in a delayed sequence. Optional speed modifier may be added and omitting the
+                            modifier will run animation at default speed.
+                            Example: <span class="code-inline">.children-slide-down</span></span></li>
+                    </ul>
+                </div>
+                <div class="col-span-12 responsive-table-md sass-table">
+                    <h2>SASS Variables</h2>
+                    <table class="text-left">
+                        <thead>
+                            <tr>
+                                <th>Variable</th>
+                                <th>Description</th>
+                                <th>Default Value</th>
+                                <th>Location</th>
+                            </tr>
+                        </thead>
+                        <tr>
+                            <td data-label="Variable">$animation-delay-steps</td>
+                            <td data-label="Description">Sets number of delay classes generated by ro:Kit</td>
+                            <td data-label="Default Value">12</td>
+                            <td data-label="Location"><a
+                                    href="https://github.com/rokmesojedec/rokit/blob/main/src/scss/_variables.scss"
+                                    target="_blank">_variables.scss</a></td>
+                        </tr>
+                        <tr>
+                            <td data-label="Variable">$animation-base-length</td>
+                            <td data-label="Description">Sets base length of delay-1 animation</td>
+                            <td data-label="Default Value">1s</td>
+                            <td data-label="Location"><a
+                                    href="https://github.com/rokmesojedec/rokit/blob/main/src/scss/_variables.scss"
+                                    target="_blank">_variables.scss</a></td>
+                        </tr>
+                        <tr>
+                            <td data-label="Variable">$animation-fast-delay-multiplier</td>
+                            <td data-label="Description">Sets multiplier for fast animations. The lower the multiplier,
+                                the shorter the delays</td>
+                            <td data-label="Default Value">0.25</td>
+                            <td data-label="Location"><a
+                                    href="https://github.com/rokmesojedec/rokit/blob/main/src/scss/_variables.scss"
+                                    target="_blank">_variables.scss</a></td>
+                        </tr>
+                        <tr>
+                            <td data-label="Variable">$animation-slow-delay-multiplier</td>
+                            <td data-label="Description">Sets multiplier for slow animations. The lower the multiplier,
+                                the shorter the delays</td>
+                            <td data-label="Default Value">0.65</td>
+                            <td data-label="Location"><a
+                                    href="https://github.com/rokmesojedec/rokit/blob/main/src/scss/_variables.scss"
+                                    target="_blank">_variables.scss</a></td>
+                        </tr>
+                        <tr>
+                            <td data-label="Variable">$animation-delay-multiplier</td>
+                            <td data-label="Description">Sets multiplier for regular animations. The lower the
+                                multiplier, the shorter the delays</td>
+                            <td data-label="Default Value">0.55</td>
+                            <td data-label="Location"><a
+                                    href="https://github.com/rokmesojedec/rokit/blob/main/src/scss/_variables.scss"
+                                    target="_blank">_variables.scss</a></td>
+                        </tr>
+                        <tr>
+                            <td data-label="Variable">$animation-translate-distance</td>
+                            <td data-label="Description">Sets distance of slide-in effect</td>
+                            <td data-label="Default Value">10 rem</td>
+                            <td data-label="Location"><a
+                                    href="https://github.com/rokmesojedec/rokit/blob/main/src/scss/_variables.scss"
+                                    target="_blank">_variables.scss</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="color" class="
+        p-y-8
+        children-p-0
+        shadow-6 
+        relative z-1
+        text-dark
+        slide-left-delay-1
+        ">
+        <div class="max-width-center-xxl " id="grid">
+            <div class="grid grid-col-span-12 grid-md-col-span-6">
+                <div>
+                    <h2>ro:Kit Shadow Animations</h2>
+                    You can also animate text and box shadows in sequence with ro:Kit text shadow animations.
+                    Shadow animations work in similar fashion to slide-in animations. You only need to add a class to
+                    have the animation start on page load.
+                </div>
+                <div>
+                    <h2>Shadow Animation Classes</h2>
+                    <ul>
+                        <li><span class="code-inline">.animate-[type:text = box | text]-shadow-[direction:text = up |
+                                down | left |
+                                right]-delay-[delay:number = 1 through 12]</span> - animates box or text shadow on an
+                            element with
+                            [delay]. An element with delay-1 will be animated first, delay-2 will come in right after
+                            delay-1. Delay times are absolute. Example: <span
+                                class="code-inline">.animate-text-shadow-top-right-delay-1-fast</span></span></li>
+                        <li><span class="code-inline">.children-animate-[type:text = box | text]-[direction:text = up |
+                                down | left |
+                                right]</span> - animates text or box shadow on up to 12 child elements of an element in
+                            a delayed sequence. Example: <span
+                                class="code-inline">.children-animate-text-shadow-bottom-left-slow</span></span></li>
+                    </ul>
+                </div>
+                <div class="col-span-12 responsive-table-md sass-table">
+                    <h2>SASS Variables</h2>
+                    <table class="text-left">
+                        <thead>
+                            <tr>
+                                <th>Variable</th>
+                                <th>Description</th>
+                                <th>Default Value</th>
+                                <th>Location</th>
+                            </tr>
+                        </thead>
+                        <tr>
+                            <td data-label="Variable">$shadow-animation-length</td>
+                            <td data-label="Description">Sets base length of shadow animations</td>
+                            <td data-label="Default Value">$animation-base-length = 1s</td>
+                            <td data-label="Location"><a
+                                    href="https://github.com/rokmesojedec/rokit/blob/main/src/scss/_variables.scss"
+                                    target="_blank">_variables.scss</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="p-y-3 typescale-minor-second code">
+        <div class="max-width-center-xxl">
+            <nav class="p-sm-3 p-xs-3 p-md-3 p-lg-0  typescale-minor-second max-width-center-xxl nav-flex">
+                <ul class=" children-p-sm-1 justify-content-space-between text-warning">
+                    <li><a href="index.html">Home</a>
+                        <ul class="text-light">
+                            <li><a href="index.html#intro">Intro</a></li>
+                            <li><a href="index.html#howto">How to ?</a></li>
+                            <li><a href="index.html#examples">Example Page</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="animations.html" class="active">Animations</a>
+                        <ul class="text-light">
+                            <li><a href="animations.html#slidein">Slide-In</a></li>
+                            <li><a href="animations.html#shadows">Shadows</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="styling.html">Colors & Styling</a>
+                        <ul class="text-light">
+                            <li><a href="styling.html#color">Colors</a></li>
+                            <li><a href="styling.html#gradients">Gradients</a></li>
+                            <li><a href="styling.html#shadows">Shadows</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="layout.html">Layout</a>
+                        <ul class="text-light">
+                            <li><a href="layout.html#breakpoints">Breakpoints</a></li>
+                            <li><a href="layout.html#breakpoint-list">Responsive Classes List</a></li>
+                            <li><a href="layout.html#grid">Grid &amp; CSS Box Model</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="ui.html">UI Components</a>
+                        <ul class="text-light">
+                            <li><a href="ui.html#buttons">Buttons</a></li>
+                            <li><a href="ui.html#navigation">Navigation</a></li>
+                            <li><a href="ui.html#jumbo">Jumbo</a></li>
+                            <li><a href="ui.html#tooltips">Tooltips</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="utilities.html">Utilities</a>
+                        <ul class="text-light">
+                            <li><a href="utilities.html#classes">Utility Classes</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="typography.html">Typography</a>
+                        <ul class="text-light">
+                            <li><a href="typography.html#scales">Font Scales</a></li>
+                            <li><a href="typography.html#headings">Headings</a></li>
+                            <li><a href="typography.html#typefaces">Typefaces</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            &#169; 2021 <a href="mailto:rok@mesojedec.io" class="link-warning">Rok Mesojedec</a>. All
+            rights reserved.
+        </div>
+    </footer>
+</body>
+
+</html>

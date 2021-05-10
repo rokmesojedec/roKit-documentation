@@ -1,0 +1,78 @@
+@use "components/breakpoints" as brp;
+@use "components/jumbo" as jumbo;
+
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp");
+
+tr td span{
+    display:inline-block
+}
+
+@include jumbo.bg-image("../img/Goriska_brda.jpg", "goriska-brda");
+.example-img {
+    width: 100%;
+}
+
+@media (max-width: brp.$sm) {
+    .main-jumbo {
+        height: 100vh !important;
+    }
+}
+.main-jumbo{
+    height: 55vh;
+}
+
+.gradients{
+    $outline-color: rgba(255, 255, 255, 0.623);
+    color: black;
+    text-shadow:
+    -1px -1px 0 $outline-color,  
+     1px -1px 0 $outline-color,
+     -1px 1px 0 $outline-color,
+      1px 1px 0 $outline-color;
+    font-weight: bold;
+}
+
+@media (min-width: brp.$lg) {
+    header {
+        background-size: 100vw 55vh !important;
+        background-position: top;
+    }
+}
+
+.logo {
+    position: absolute;
+    top: -15%;
+    font-size: 1.5em;
+    opacity: 0.3;
+    left: 23%;
+    transform: rotate(13deg);
+    text-shadow: none;
+}
+
+.sass-table{
+     tr{
+        [data-label="Variable"], [data-label="Location"], [data-label="Class"]{
+            font-family: var(--code-font);
+            font-weight: bold;
+            color: var(--code-color);
+        }
+    }
+
+    & + & {
+        margin-top: calc(5 * var(--unit))
+    }
+}
+
+.color-grid div {
+    min-height: 9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scales > * {
+    word-break: break-all;
+}
+
+
+

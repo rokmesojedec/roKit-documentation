@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp");
+/* Source: https://getbootstrap.com/docs/5.0/layout/breakpoints/         */
+.jumbo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--light-color);
+  position: relative;
+  overflow: hidden;
+  min-height: 550px;
+}
+.jumbo .overlay, .jumbo .goriska-brda {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+.jumbo .cover, .jumbo .goriska-brda {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.jumbo img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.jumbo .content {
+  z-index: 2;
+}
+.jumbo.golden-ratio-left {
+  display: block;
+}
+.jumbo.golden-ratio-left .content {
+  position: absolute;
+  left: 38.2%;
+  top: 38.2%;
+}
+.jumbo.golden-ratio-right {
+  display: block;
+}
+.jumbo.golden-ratio-right .content {
+  position: absolute;
+  right: 38.2%;
+  top: 38.2%;
+}
+
+tr td span {
+  display: inline-block;
+}
+
+.goriska-brda {
+  background-image: url(../img/Goriska_brda.jpg);
+}
+
+.example-img {
+  width: 100%;
+}
+
+@media (max-width: 576px) {
+  .main-jumbo {
+    height: 100vh !important;
+  }
+}
+.main-jumbo {
+  height: 55vh;
+}
+
+.gradients {
+  color: black;
+  text-shadow: -1px -1px 0 rgba(255, 255, 255, 0.623), 1px -1px 0 rgba(255, 255, 255, 0.623), -1px 1px 0 rgba(255, 255, 255, 0.623), 1px 1px 0 rgba(255, 255, 255, 0.623);
+  font-weight: bold;
+}
+
+@media (min-width: 992px) {
+  header {
+    background-size: 100vw 55vh !important;
+    background-position: top;
+  }
+}
+.logo {
+  position: absolute;
+  top: -15%;
+  font-size: 1.5em;
+  opacity: 0.3;
+  left: 23%;
+  transform: rotate(13deg);
+  text-shadow: none;
+}
+
+.sass-table tr [data-label=Variable], .sass-table tr [data-label=Location], .sass-table tr [data-label=Class] {
+  font-family: var(--code-font);
+  font-weight: bold;
+  color: var(--code-color);
+}
+.sass-table + .sass-table {
+  margin-top: calc(5 * var(--unit));
+}
+
+.color-grid div {
+  min-height: 9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scales > * {
+  word-break: break-all;
+}
+
+/*# sourceMappingURL=styles.css.map */
