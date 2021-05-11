@@ -880,6 +880,9 @@ nav ul li ul li a {
   display: inline-block;
   text-decoration: none;
 }
+.btn:focus {
+  outline: none;
+}
 .btn.raised:active {
   transform: translate(1px, 1px);
 }
