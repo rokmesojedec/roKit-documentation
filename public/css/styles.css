@@ -7,7 +7,6 @@
   color: var(--light-color);
   position: relative;
   overflow: hidden;
-  min-height: 550px;
 }
 .jumbo .overlay, .jumbo .goriska-brda {
   z-index: 1;
