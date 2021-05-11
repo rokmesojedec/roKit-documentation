@@ -23,13 +23,11 @@ app.use(cookieParser());
 
 
 
-app.use('/',(res,req)=>{
-  res.redirect("/roKit");
-});
-
 app.use('/roKit', express.static(path.join(__dirname, 'public')));
 
-
+// app.use('/',(res,req)=>{
+//   res.redirect("/roKit");
+// });
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
