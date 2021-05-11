@@ -40,6 +40,8 @@ $btn-border-width: 0.1em;
     display: inline-block;
     text-decoration: none;
 
+    // Remove MacOS Outline https://usabilitypost.com/2008/10/15/css-tip-remove-mac-osx-glowing-blue-outlin-for-custom-styled-input-fields/
+    &:focus { outline: none; }
     &.raised {
         @extend .shadow-6;
         &:active {
