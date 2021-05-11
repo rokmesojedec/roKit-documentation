@@ -4,7 +4,7 @@
     border: none;
     &:hover,
     a:hover {
-        text-decoration: underline;
+        // text-decoration: underline;
         box-shadow: none !important;
     }
 
@@ -24,28 +24,41 @@
     font-weight: bold;
     font-size: 200%;
     display: inline-block;
-    padding: {top: var(--unit); bottom: var(--unit);}
-    margin: {top: var(--unit); bottom: var(--unit);}
-    
+    padding: {
+        top: var(--unit);
+        bottom: var(--unit);
+    }
+    margin: {
+        top: var(--unit);
+        bottom: var(--unit);
+    }
+
     @extend %navAnchorOverride;
     &:hover {
         text-decoration: none;
     }
 }
 
+$nav-border-radius: 5px;
 nav {
     display: block;
     margin: 0;
     padding: 0;
     align-items: center;
-    &.nav-flex > ul{
-        & > li { 
-            width: 10rem;
-            padding: 0;
+    &.nav-flex > ul {
+        &::after {
+            content: "";
+            flex: auto;
+        }
+        & > li {
+            padding: var(--unit);
             text-transform: uppercase;
             font-weight: bold;
             margin-bottom: calc(3 * var(--unit));
-            margin-right: var(--unit);
+            flex-basis: 25%;
+            background-color: transparent;
+            position: relative;
+  
             ul {
                 li {
                     font-weight: initial;
@@ -55,10 +68,11 @@ nav {
         }
         display: flex;
         flex-wrap: wrap;
-        justify-content: flex-start;
+        justify-content: space-between;
         padding-left: 0;
         padding-bottom: 0;
-        ul, ul li {
+        ul,
+        ul li {
             padding-left: 0;
             padding-bottom: 0;
         }
@@ -74,7 +88,7 @@ nav {
     a.active {
         font-weight: bold;
         &:before {
-            content: "\2013" + " ";
+            content: "\2013"+ " ";
         }
     }
     ul {
@@ -106,14 +120,17 @@ nav {
             }
         }
     }
+
     @include for-each-breakpoint() using ($breakpoint) {
         &.nav-#{$breakpoint} {
             display: flex;
             & > ul {
                 display: flex;
                 flex-wrap: initial;
+                position: relative;
+
                 li {
-                    a{
+                    a {
                         white-space: nowrap;
                     }
                     margin: 0;
@@ -121,23 +138,29 @@ nav {
                     width: initial;
                     font-weight: initial;
                     text-transform: initial;
-                    &:first-child {
-                        padding-left: var(--unit);
+                    &:hover {
+                        // border-radius: $nav-border-radius;
+                        border-radius: $nav-border-radius $nav-border-radius 0 0;
+        
+                        color: var(--link-hover-color);
+                        background-color: var(--hover-color);
+                        transition: background-color 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
                     }
                     &:hover a ~ ul,
                     &:hover ~ ul:hover {
                         display: block;
                     }
                     & a ~ ul {
-                        border-radius: 0 0 5px 5px;
-                        bottom: 0;
-                        left: 50%;
+                        border-radius: 0 0 $nav-border-radius $nav-border-radius;
+                        top: 100%;
+                        left: 0;
                         position: absolute;
                         display: none;
-                        transform: translate(-50%, 100%);
                         animation: fade-in 0.3s;
+                        background-color: var(--hover-color);
+                        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.007), 7px 7px 7px rgba(0, 0, 0, 0.1), -7px 7px 7px rgba(0, 0, 0, 0.1);
                         li {
-                            padding: calc(var(--unit) / 2) var(--unit);
+                            padding: calc(var(--unit) / 2) calc(2 * var(--unit));
                             display: list-item;
                         }
                     }

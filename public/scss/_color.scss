@@ -159,6 +159,13 @@ $overlay-degrees: ("bottom": 0, "right": 90deg, "top": 180deg, "left": 270deg);
     }
 }
 
+@each $bg, $color in $bgcolors-textcolor-map{ 
+    .hover-#{$bg} {
+        --hover-color: var(--#{$bg}-color);
+        --link-hover-color: var(#{$color});
+    }
+}
+
 @for $i from 1 through 100 {
     @if $i % 5 == 0 {
         .opacity-#{$i} {

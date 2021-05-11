@@ -14,7 +14,7 @@ a {
     }
 
     @each $bg, $color in $bgcolors-textcolor-map{ 
-        &.link-#{$bg} {
+        &.hover-#{$bg} {
             --hover-color: var(--#{$bg}-color);
             --link-hover-color: var(#{$color});
         }

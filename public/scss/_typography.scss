@@ -33,6 +33,7 @@ code {
     white-space: pre-wrap;
     display: block;
     @extend .shadow-4;
+    @extend .rounded;
     &.inline {
         display: inline-block;
         padding: calc(var(--unit) / 2);

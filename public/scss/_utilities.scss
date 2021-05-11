@@ -203,3 +203,12 @@ $directions: (
     display: flex;
     justify-content: space-between;
 }
+
+
+.rounded{
+    border-radius: var(--unit);
+}
+
+.children-rounded > * {
+    border-radius: var(--unit);
+}

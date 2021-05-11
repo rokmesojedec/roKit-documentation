@@ -42,7 +42,7 @@
     <header class="p-y-0 slide-down-delay-1 fixed-lg full-width z-3 top white shadow-9">
         <nav class="nav-flex p-sm-3 p-xs-3 p-md-3 p-lg-0 nav-lg typescale-minor-second max-width-center-xxl">
             <a href="index.html" class="branding relative">ro:Kit<span class="logo">&#129304;</span></a>
-            <ul class=" children-p-sm-1 margin-left-auto">
+            <ul class="hover-code children-p-sm-1 margin-left-auto">
                 <li><a href="index.html">Home</a>
                     <ul class="white shadow-lg-9">
                         <li><a href="index.html#intro">Intro</a></li>
@@ -350,24 +350,30 @@
     primary
    ">
         <div class="max-width-center-xxl ">
-            <div class="grid grid-col-span-12 children-slide-down">
-                <h1>ro:Kit Navgiation</h1>
-                <p>
-                    Every site needs navigation - ro:Kit provides it as well with the following features: CSS only drop
-                    downs, responsive collapsible navigation.
-                </p>
-                <h2>Navigation Classes</h2>
-                <p>
-                    Use <span class="code-inline">.nav-&lt;breakpoint&gt;</span> to set a breakpoint below which the
-                    navigation collpases into block or flex if <span class="code-inline">.nav-flex</span> is applied.
-                    When the navigation is collpased, the nested dropdown content will also be displayed.
-                </p>
-                <h2>Navigation Code Template</h2>
-                <p>
-                    <code class="gradient-danger-warning">&lt;nav class=&quot;[?nav-flex|?nav-light|?center] [?nav-&lt;breakpoint-size&gt;]&quot;&gt;
+            <div class="grid grid-col-span-12 grid-md-col-span-6 children-slide-down gap-2">
+                <div class="card shadow-8 max-width-center-sm rounded light p-2 justify-content-vertically ">
+                    <h3>ro:Kit Navgiation</h3>
+                    <p>
+                        Every site needs navigation - ro:Kit provides you a simple, CSS only, menu driven navigation bar that can collapse on breakpoints.
+                        Simply use the template below to get started.
+                    </p>
+                </div>
+                <div class="card shadow-8 max-width-center-sm rounded light p-2 justify-content-vertically">
+                    <h3>Navigation Classes</h3>
+                    <p>
+                        Use <span class="code-inline">.nav-&lt;breakpoint&gt;</span> to set a breakpoint below which the
+                        navigation collpases into block or flex if <span class="code-inline">.nav-flex</span> is
+                        applied.
+                        When the navigation is collpased, the nested dropdown content will also be displayed.
+                    </p>
+                </div>
+                <div class="card shadow-8 rounded light p-2 justify-content-vertically col-span-12">
+                    <h3>Navigation Code Template</h3>
+                    <p>
+                        <code class="gradient-danger-warning">&lt;nav class=&quot;[?nav-flex|?nav-light|?center] [?nav-&lt;breakpoint-size&gt;]&quot;&gt;
     &lt;a href=&quot;branding&quot;&gt;My Branding&lt;/a&gt;
     &lt;!-- site navigation links --&gt;
-    &lt;ul&gt;
+    &lt;ul class=&quot;hover-[color:text]&quot;&gt;
         &lt;li&gt;&lt;a href=&quot;&quot; class=&quot;active&quot;&gt;Link 1&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 2&lt;/a&gt;
             &lt;!-- Nested unordered list will turn into a dropdown - which is displayed as block when navigation collapses --&gt;
@@ -379,24 +385,27 @@
         &lt;li&gt;&lt;a href=&quot;&quot;&gt;Link 3&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
 &lt;/nav&gt;</code>
-                </p>
-                <h2>Navigation Example</h2>
-                <div class="full-width">
-                    <nav class="nav-md">
-                        <a href="#" class="branding">My Branding</a>
-                        <!-- site navigation links -->
-                        <ul class="#">
-                            <li><a href="#" class="active">Link 1</a></li>
-                            <li><a href="#">Link 2</a>
-                                <!-- Nested unordered list will turn into a dropdown - which is displayed as block when navigation collapses -->
-                                <ul>
-                                    <li><a href="#">Sublink 1</a></li>
-                                    <li><a href="#">Sublink 2</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Link 3</a></li>
-                        </ul>
-                    </nav>
+                    </p>
+                </div>
+                <div class="card shadow-8 rounded light p-2 col-span-12">
+                    <h3>Navigation Example</h3>
+                    <div class="full-width">
+                        <nav class="nav-md">
+                            <a href="#" class="branding">My Branding</a>
+                            <!-- site navigation links -->
+                            <ul class="hover-dark">
+                                <li><a href="#" class="active">Link 1</a></li>
+                                <li><a href="#">Link 2</a>
+                                    <!-- Nested unordered list will turn into a dropdown - which is displayed as block when navigation collapses -->
+                                    <ul>
+                                        <li><a href="#">Sublink 1</a></li>
+                                        <li><a href="#">Sublink 2</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Link 3</a></li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
             </div>
         </div>
@@ -469,15 +478,15 @@
     <section id="tooltips" class="
                p-y-8
                children-p-0
-               primary
+               warning
                shadow-6 
                relative z-1
                text-dark
                ">
         <div class="max-width-center-xxl children-slide-up">
             <h1 class="slide-up-delay-1 p-x-md-10 text-center">ro:Kit Tooltips</h1>
-            <div class="grid grid-col-span-12 grid-xl-col-span-6 p-x-md-10">
-                <div>
+            <div class="grid grid-col-span-12 grid-xl-col-span-6 p-x-md-10 gap-2">
+                <div class="card shadow-8 rounded light p-2 justify-content-vertically ">
                     <p>Tooltips are fun! Ro:Kit makes it very easy to add a tooltip to your site.</p>
                     <p>Just add <span class="code-inline">data-tooltip-[top|left|bottom|right]="lorem
                             ipsum"</span> to
@@ -488,9 +497,9 @@
                         attribute.
                     </p>
                 </div>
-                <div>
+                <div class="card shadow-8 rounded light p-2 justify-content-vertically ">
                     <div class="card align-vertically no-shadow">
-                        <p class="warning shadow-4 p-3"><strong>Caveat:</strong> when adding tooltips to
+                        <p class=" shadow-4 p-3 danger rounded"><strong>Caveat:</strong> when adding tooltips to
                             Ro:Kit buttons
                             (or
                             any
@@ -511,19 +520,19 @@
                         p-t-5
                         p-b-2
                         children-shadow-6 children-p-2 gap-2 text-center children-slide-up">
-                <div class="white">
+                <div class="white rounded">
                     <p data-tooltip-left="Hello! Look at me I'm a tooltip." class="static-tooltip">Left
                         positioned tooltip</p>
                 </div>
-                <div class="white">
+                <div class="white rounded">
                     <p data-tooltip-top="Hello! Look at me I'm a tooltip." class="static-tooltip">Top
                         positioned tooltip</p>
                 </div>
-                <div class="white">
+                <div class="white rounded">
                     <p data-tooltip-bottom="Hello! Look at me I'm a tooltip." class="static-tooltip">Bottom
                         positioned tooltip</p>
                 </div>
-                <div class="white">
+                <div class="white rounded">
                     <p data-tooltip-right="Hello! Look at me I'm a tooltip." class="static-tooltip">Right
                         positioned tooltip</p>
                 </div>
@@ -536,16 +545,16 @@
                         p-b-5
                         p-t-2
                         children-shadow-6 children-p-2 gap-2 text-center  children-slide-up">
-                <div class="white"><span class="inline-block"
+                <div class="white rounded"><span class="inline-block"
                         data-tooltip-left="Hello! Look at me I'm a tooltip."><button class="btn text-primary flat">
                             Hover Left Tooltip</button></span></div>
-                <div class="white"><span class="inline-block"
+                <div class="white rounded"><span class="inline-block"
                         data-tooltip-top="Hello! Look at me I'm a tooltip."><button class="btn text-secondary flat">
                             Hover Top Tooltip</button></span></div>
-                <div class="white"><span class="inline-block"
+                <div class="white rounded"><span class="inline-block"
                         data-tooltip-bottom="Hello! Look at me I'm a tooltip."><button class="btn text-code flat"> Hover
                             Bottom Tooltip</button></span></div>
-                <div class="white"><span class="inline-block"
+                <div class="white rounded"><span class="inline-block"
                         data-tooltip-right="Hello! Look at me I'm a tooltip."><button class="btn text-danger flat">
                             Hover Right Tooltip</button></span></div>
 
@@ -605,7 +614,7 @@
                     </li>
                 </ul>
             </nav>
-            &#169; 2021 <a href="mailto:rok@mesojedec.io" class="link-warning">Rok Mesojedec</a>. All
+            &#169; 2021 <a href="mailto:rok@mesojedec.io" class="hover-warning">Rok Mesojedec</a>. All
             rights reserved.
         </div>
     </footer>

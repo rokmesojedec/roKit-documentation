@@ -1,3 +1,5 @@
+@use "sass:map";
+
 // Breakpoint Variables
 //-----------------------------------------------------------------------//
 /* Source: https://getbootstrap.com/docs/5.0/layout/breakpoints/         */
@@ -15,6 +17,7 @@ $xxl: 1400px; // xxl = more than 1400px
 // Maps below are used to create responsive classes accross the framework
 $breakpoint-map: ("xs": $xs, "sm": $sm, "md": $md, "lg": $lg, "xl": $xl, "xxl": $xxl);
 $breakpoint-bound: ("xs": "max", "sm": "min", "md": "min", "lg": "min", "xl": "min", "xxl": "min");
+$breakpoint-flexbasis: ("xs": 50%, "sm": 50%, "md": 25%, "lg": 20%, "xl": 16.66%, "xxl": 14.22%);
 
 // loops through each breakpoint in breakpoint-map list
 // this mixin is used to create all the responive rule sets in the framework

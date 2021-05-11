@@ -473,6 +473,36 @@ nav ul li a::after, .branding::after {
   text-decoration: none;
 }
 
+@media (max-width: 576px) {
+  nav.nav-flex > ul li {
+    flex-basis: 50%;
+  }
+}
+@media (max-width: 576px) {
+  nav.nav-flex > ul li {
+    flex-basis: 50%;
+  }
+}
+@media (max-width: 768px) {
+  nav.nav-flex > ul li {
+    flex-basis: 50%;
+  }
+}
+@media (max-width: 992px) {
+  nav.nav-flex > ul li {
+    flex-basis: 25%;
+  }
+}
+@media (max-width: 1200px) {
+  nav.nav-flex > ul li {
+    flex-basis: 20%;
+  }
+}
+@media (max-width: 1400px) {
+  nav.nav-flex > ul li {
+    flex-basis: 16.66%;
+  }
+}
 nav {
   display: block;
   margin: 0;
@@ -487,18 +517,17 @@ nav.nav-flex > ul {
   padding-bottom: 0;
 }
 nav.nav-flex > ul > li {
-  width: 10rem;
-  padding: 0;
+  padding: var(--unit);
   text-transform: uppercase;
   font-weight: bold;
   margin-bottom: calc(3 * var(--unit));
-  margin-right: var(--unit);
 }
 nav.nav-flex > ul > li ul li {
   font-weight: initial;
   text-transform: initial;
 }
-nav.nav-flex > ul ul, nav.nav-flex > ul ul li {
+nav.nav-flex > ul ul,
+nav.nav-flex > ul ul li {
   padding-left: 0;
   padding-bottom: 0;
 }
@@ -1032,8 +1061,8 @@ nav ul li ul li a {
 }
 a {
   --hover-color: var(--primary-color);
-  --link-text-color: var(--dark-color);
-  --link-hover-color: var(--link-text-color);
+  --hover-text-color: var(--dark-color);
+  --hover-hover-color: var(--hover-text-color);
   text-decoration: none;
   display: inline-block;
   position: relative;
@@ -1042,55 +1071,55 @@ a {
 }
 a:not(.btn):hover {
   box-shadow: inset 0px 0px 0px 1em var(--hover-color);
-  color: var(--link-hover-color);
+  color: var(--hover-hover-color);
 }
-a.link-primary {
+a.hover-primary {
   --hover-color: var(--primary-color);
-  --link-hover-color: var(--light-color);
+  --hover-hover-color: var(--light-color);
 }
-a.link-primary-dark {
+a.hover-primary-dark {
   --hover-color: var(--primary-dark-color);
-  --link-hover-color: var(--light-color);
+  --hover-hover-color: var(--light-color);
 }
-a.link-primary-light {
+a.hover-primary-light {
   --hover-color: var(--primary-light-color);
-  --link-hover-color: var(--light-color);
+  --hover-hover-color: var(--light-color);
 }
-a.link-secondary {
+a.hover-secondary {
   --hover-color: var(--secondary-color);
-  --link-hover-color: var(--light-color);
+  --hover-hover-color: var(--light-color);
 }
-a.link-secondary-dark {
+a.hover-secondary-dark {
   --hover-color: var(--secondary-dark-color);
-  --link-hover-color: var(--light-color);
+  --hover-hover-color: var(--light-color);
 }
-a.link-secondary-light {
+a.hover-secondary-light {
   --hover-color: var(--secondary-light-color);
-  --link-hover-color: var(--light-color);
+  --hover-hover-color: var(--light-color);
 }
-a.link-success {
+a.hover-success {
   --hover-color: var(--success-color);
-  --link-hover-color: var(--light-color);
+  --hover-hover-color: var(--light-color);
 }
-a.link-warning {
+a.hover-warning {
   --hover-color: var(--warning-color);
-  --link-hover-color: var(--dark-color);
+  --hover-hover-color: var(--dark-color);
 }
-a.link-danger {
+a.hover-danger {
   --hover-color: var(--danger-color);
-  --link-hover-color: var(--light-color);
+  --hover-hover-color: var(--light-color);
 }
-a.link-code {
+a.hover-code {
   --hover-color: var(--code-color);
-  --link-hover-color: var(--light-color);
+  --hover-hover-color: var(--light-color);
 }
-a.link-light {
+a.hover-light {
   --hover-color: var(--light-color);
-  --link-hover-color: var(--dark-color);
+  --hover-hover-color: var(--dark-color);
 }
-a.link-dark {
+a.hover-dark {
   --hover-color: var(--dark-color);
-  --link-hover-color: var(--light-color);
+  --hover-hover-color: var(--light-color);
 }
 
 [data-tooltip], [data-tooltip-bottom], [data-tooltip-right], [data-tooltip-left], [data-tooltip-top] {

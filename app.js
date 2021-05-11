@@ -7,12 +7,25 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 
 var app = express();
+//view engine setup
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'pug');
+// app.get('/', function (req, res) {
+//   res.send('Hello World!')
+// })
+// app.use('/roKit', indexRouter);
 
 
 app.use(logger('dev')); 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
+
+
+
+app.use('/',(res,req)=>{
+  res.redirect("/roKit");
+});
 
 app.use('/roKit', express.static(path.join(__dirname, 'public')));
 
@@ -31,8 +44,9 @@ app.use(function(err, req, res, next) {
 
   // render the error page
   res.status(err.status || 500);
-  res.send('There seems to be an error!')
-  res.render('error');
+  res.sendFile('public/404.html', { root: __dirname });
+
+ // res.render('error');
 });
 
 module.exports = app;
