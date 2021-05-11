@@ -129,6 +129,15 @@ nav {
                 flex-wrap: initial;
                 position: relative;
 
+                & > li:hover {
+                    // border-radius: $nav-border-radius;
+                    border-radius: $nav-border-radius $nav-border-radius 0 0;
+    
+                    color: var(--link-hover-color);
+                    background-color: var(--hover-color);
+                    transition: background-color 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+                }
+
                 li {
                     a {
                         white-space: nowrap;
@@ -138,14 +147,7 @@ nav {
                     width: initial;
                     font-weight: initial;
                     text-transform: initial;
-                    &:hover {
-                        // border-radius: $nav-border-radius;
-                        border-radius: $nav-border-radius $nav-border-radius 0 0;
-        
-                        color: var(--link-hover-color);
-                        background-color: var(--hover-color);
-                        transition: background-color 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
-                    }
+                   
                     &:hover a ~ ul,
                     &:hover ~ ul:hover {
                         display: block;

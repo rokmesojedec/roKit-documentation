@@ -5,6 +5,10 @@ $directions: (
     "bottom": "b",
 );
 
+
+// Padding & Margin Utilties 
+/////////////////////////////////////////////////////
+
 @for $i from 0 through $utility-levels {
     .children-p-#{$i} > * {
         padding: $unit * $i;
@@ -127,6 +131,9 @@ $directions: (
         }
     }
 }
+
+// Misc Utilties 
+/////////////////////////////////////////////////////
 
 @for $i from  0 through 100 {
     .vh-#{$i}{

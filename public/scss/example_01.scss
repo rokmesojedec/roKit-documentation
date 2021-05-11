@@ -1,0 +1,7 @@
+@use "components/jumbo" as jumbo;
+
+@for $i from 1 through 12 {
+    @include jumbo.cover-image("../img/example_01/" + $i + ".jpg", "img-" + $i){
+        height: 360px;
+    }
+}

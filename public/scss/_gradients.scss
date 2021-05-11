@@ -1,5 +1,8 @@
 @use "color";
 
+// Creates gradient color pairs
+// Using colors defined in _colors.scss
+// Define more colors in _colors.scss's map $bgcolors-textcolor-map
 @each $color, $text in color.$bgcolors-textcolor-map {
     @each $color2, $text in color.$bgcolors-textcolor-map {
         @if $color != $color2 {
@@ -26,7 +29,6 @@
                     var(--#{$color2}-color)
                 );
                 text-shadow: none !important;
-
                 h1,
                 h2,
                 h3,
@@ -34,7 +36,6 @@
                 h5,
                 h6 {
                     display: inline-block;
-
                     text-shadow: none !important;
                 }
             }
