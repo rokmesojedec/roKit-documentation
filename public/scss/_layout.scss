@@ -12,6 +12,7 @@
     }
 }
 
+// Default Grid
 .grid {
     --gap: calc(var(--unit) / 2);
     --column-span: 1;
@@ -46,6 +47,8 @@
         }
     }
 
+    // Grid Breakpoints
+    // for-each-breakpoint() mixin is located in components/_breakpoints.scss
     @include for-each-breakpoint() using ($breakpoint) {
         &.last-cell-#{$breakpoint}-full-width > *:last-child{
             grid-column-end: span var(--column-count);
