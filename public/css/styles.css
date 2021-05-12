@@ -61,6 +61,10 @@ tr td span {
   width: 100%;
 }
 
+.word-break {
+  word-break: break-all;
+}
+
 @media (max-width: 576px) {
   .main-jumbo {
     height: 100vh !important;
