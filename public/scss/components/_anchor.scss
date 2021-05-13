@@ -12,11 +12,13 @@ a {
         box-shadow:inset 0px 0px 0px 1em var(--hover-color);
         color: var(--link-hover-color);
     }
+}
 
-    @each $bg, $color in $bgcolors-textcolor-map{ 
-        &.hover-#{$bg} {
-            --hover-color: var(--#{$bg}-color);
-            --link-hover-color: var(#{$color});
-        }
+.social-media a, a.social-media{
+    border: none;
+    &:hover{
+        box-shadow: none;
+        color: var(--hover-color);
+        transition: color 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
     }
 }

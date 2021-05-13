@@ -912,8 +912,8 @@ nav ul li ul li a {
 .btn[disabled]:hover:after, .btn[disabled]:active:after {
   display: none;
 }
-.btn span {
-  vertical-align: bottom;
+.btn span, .btn i {
+  margin-right: var(--unit);
   font-size: var(--btn-font-size);
 }
 .btn.outline {
@@ -1141,53 +1141,14 @@ a:not(.btn):hover {
   box-shadow: inset 0px 0px 0px 1em var(--hover-color);
   color: var(--link-hover-color);
 }
-a.hover-primary {
-  --hover-color: var(--primary-color);
-  --link-hover-color: var(--light-color);
+
+.social-media a, a.social-media {
+  border: none;
 }
-a.hover-primary-dark {
-  --hover-color: var(--primary-dark-color);
-  --link-hover-color: var(--light-color);
-}
-a.hover-primary-light {
-  --hover-color: var(--primary-light-color);
-  --link-hover-color: var(--light-color);
-}
-a.hover-secondary {
-  --hover-color: var(--secondary-color);
-  --link-hover-color: var(--light-color);
-}
-a.hover-secondary-dark {
-  --hover-color: var(--secondary-dark-color);
-  --link-hover-color: var(--light-color);
-}
-a.hover-secondary-light {
-  --hover-color: var(--secondary-light-color);
-  --link-hover-color: var(--light-color);
-}
-a.hover-success {
-  --hover-color: var(--success-color);
-  --link-hover-color: var(--light-color);
-}
-a.hover-warning {
-  --hover-color: var(--warning-color);
-  --link-hover-color: var(--dark-color);
-}
-a.hover-danger {
-  --hover-color: var(--danger-color);
-  --link-hover-color: var(--light-color);
-}
-a.hover-code {
-  --hover-color: var(--code-color);
-  --link-hover-color: var(--light-color);
-}
-a.hover-light {
-  --hover-color: var(--light-color);
-  --link-hover-color: var(--dark-color);
-}
-a.hover-dark {
-  --hover-color: var(--dark-color);
-  --link-hover-color: var(--light-color);
+.social-media a:hover, a.social-media:hover {
+  box-shadow: none;
+  color: var(--hover-color);
+  transition: color 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
 
 [data-tooltip], [data-tooltip-bottom], [data-tooltip-right], [data-tooltip-left], [data-tooltip-top] {
@@ -8912,6 +8873,10 @@ a.hover-dark {
 
 .inline-block {
   display: inline-block;
+}
+
+.flex {
+  display: flex;
 }
 
 .top {

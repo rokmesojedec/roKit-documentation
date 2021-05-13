@@ -80,8 +80,8 @@ $btn-border-width: 0.1em;
         }
     }
 
-    span {
-        vertical-align: bottom;
+    span, i {
+        margin-right: var(--unit);
         font-size: var(--btn-font-size);
     }
 
