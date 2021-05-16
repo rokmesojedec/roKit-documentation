@@ -553,9 +553,29 @@ nav.nav-flex > ul > li {
   text-transform: uppercase;
   font-weight: bold;
   margin-bottom: calc(3 * var(--unit));
-  flex-basis: 25%;
+  flex-basis: 50%;
   background-color: transparent;
   position: relative;
+}
+@media (min-width: 576px) {
+  nav.nav-flex > ul > li {
+    flex-basis: 33.3333333333%;
+  }
+}
+@media (min-width: 768px) {
+  nav.nav-flex > ul > li {
+    flex-basis: 25%;
+  }
+}
+@media (min-width: 992px) {
+  nav.nav-flex > ul > li {
+    flex-basis: 16.6666666667%;
+  }
+}
+@media (min-width: 1400px) {
+  nav.nav-flex > ul > li {
+    flex-basis: 12.5%;
+  }
 }
 nav.nav-flex > ul > li ul li {
   font-weight: initial;

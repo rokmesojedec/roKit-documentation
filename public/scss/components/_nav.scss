@@ -55,9 +55,27 @@ nav {
             text-transform: uppercase;
             font-weight: bold;
             margin-bottom: calc(3 * var(--unit));
-            flex-basis: 25%;
+            flex-basis: 50%;
             background-color: transparent;
             position: relative;
+
+            $flex-basis: 100%;
+
+            @media (min-width: $sm) {
+                flex-basis: $flex-basis / 3;
+            }
+
+            @media (min-width: $md) {
+                flex-basis: $flex-basis / 4;
+            }
+
+            @media (min-width: $lg) {
+                flex-basis: $flex-basis / 6;
+            }
+
+            @media (min-width: $xxl) {
+                flex-basis: $flex-basis / 8;
+            }
   
             ul {
                 li {

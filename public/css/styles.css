@@ -66,7 +66,7 @@ tr td span {
 }
 
 @media (max-width: 576px) {
-  .main-jumbo {
+  .main-jumbo, .main-jumbo > div {
     height: 100vh !important;
   }
 }
@@ -96,7 +96,9 @@ tr td span {
   text-shadow: none;
 }
 
-.sass-table tr [data-label=Variable], .sass-table tr [data-label=Location], .sass-table tr [data-label=Class] {
+.sass-table tr [data-label=Variable],
+.sass-table tr [data-label=Location],
+.sass-table tr [data-label=Class] {
   font-family: var(--code-font);
   font-weight: bold;
   color: var(--code-color);
